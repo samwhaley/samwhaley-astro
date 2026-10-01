@@ -1,0 +1,15 @@
+query newsPage {
+  newsPage {
+  	Banner {
+      background_position_v,
+      background_position_h,
+	    title
+	    subtitle
+	    image {
+	      url
+	    } 	
+  	}
+  	intro_title
+  	intro_content
+  }
+}

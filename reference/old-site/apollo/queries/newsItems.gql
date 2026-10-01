@@ -1,0 +1,15 @@
+query NewsItems {
+  newsItems {
+    thumbnail_position,
+    id,
+    slug,
+    title,
+    content,
+    preview_text,
+    image {
+      url
+    },
+    RichText,
+    date
+  }
+}

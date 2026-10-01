@@ -1,0 +1,43 @@
+query homePage {
+  homePage {
+  	Banner {
+		background_position_v,
+		background_position_h,
+	    title,
+	    subtitle,
+	    image {
+	      url
+	    } 	
+  	},
+  	Intro {
+	    title,
+	    content,
+	    number,
+	    Button {
+	    	show,
+	    	type,
+	    	align,
+	    	page,
+	    	text,
+	    },
+	    image {
+	      url,
+	    } 	
+  	},
+    PageLinks {
+	    title,
+	    content,
+	    number,
+	    Button {
+	    	show,
+	    	type,
+	    	align,
+	    	page,
+	    	text,
+	    },
+	    image {
+	      url,
+	    } 	
+    }
+  }
+}

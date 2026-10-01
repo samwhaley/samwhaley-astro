@@ -1,0 +1,36 @@
+query BlogItems($slug: String)  {
+  blogItems(where: {
+    slug: $slug
+  }) {
+    thumbnail_position,
+    id,
+    slug,
+    title,
+    likes,
+    preview_text,
+    image {
+      url
+    },
+    rich_text,
+    youtube,
+    photo_grid {
+     url
+    },
+    rich_text_2,
+    youtube_2,
+    photo_grid_2 {
+     url
+    },
+    rich_text_3,
+    date,
+    createdAt,
+    published_at,
+    Button {
+      link,
+      title,
+      image {
+        url
+      }
+    }
+  }
+}

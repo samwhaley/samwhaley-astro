@@ -1,0 +1,16 @@
+query NewsItems($slug: String)  {
+  newsItems(where: {
+    slug: $slug
+  }) {
+  	id
+    slug
+    title
+    content
+    preview_text
+    image {
+      url
+    }
+    RichText
+    date
+  }
+}

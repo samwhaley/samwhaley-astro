@@ -1,0 +1,37 @@
+query coachingPage {
+  coachingPage {
+  	Banner {
+      background_position_v,
+      background_position_h,
+	    title,
+	    subtitle,
+	    image {
+	      url
+	    } 	
+  	},
+  	intro_title,
+  	intro_content,
+    Coaching_Boats {
+      Boat {
+        background_position,
+        id,
+        boat_name,
+        title,
+        content,
+        image {
+          url
+        }
+      }
+    },
+    Services {
+      service {
+        bold_text,
+        title,
+        content,
+        image {
+          url
+        }
+      }
+    }
+  }
+}

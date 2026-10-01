@@ -1,0 +1,52 @@
+query sponsorsPage {
+  sponsorsPage {
+  	Banner {
+      background_position_v,
+      background_position_h,
+	    title
+	    subtitle
+	    image {
+	      url
+	    } 	
+  	},
+    introduction_title,
+    introduction_content,
+  	DonateComponent {
+	    title
+	    content
+      number
+	    image {
+	      url
+	    },
+      Button {
+        show
+        type
+        align
+        page
+        text
+      }
+  	},
+  	MainSponsors {
+  		sponsor_item {
+  			id,
+  			title,
+  			content,
+  			link,
+  			logo {
+  				url
+  			}
+  		}
+  	},
+  	SecondarySponsors {
+  		sponsor_item {
+  			id,
+  			title,
+  			content,
+  			link,
+  			logo {
+  				url
+  			} 		
+  		}
+  	}
+  }
+}

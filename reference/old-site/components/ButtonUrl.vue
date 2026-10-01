@@ -1,0 +1,96 @@
+<template>
+	
+	<div class="button__container" :class="'button__container--' + align">
+		<a :href="route" target="_blank" class="button" :class="'button--' + type" rel="noopener">
+			{{ text }}
+		</a>
+	</div>
+	
+</template>
+
+<script>
+export default {
+    props: {
+        route: String,
+        type: String,
+        text: String,
+        align: String
+    },
+}
+</script>
+
+<style lang="scss" scoped>
+	.button__container {
+	    align-items: center;
+	    display: flex;
+	    justify-content: center;
+	    width: 100%;
+
+	    &--right {
+	    	justify-content: flex-end;
+
+	    	@media #{$phone} {
+	    		justify-content: flex-start;
+	    	}
+	    }
+	    &--left {
+	    	justify-content: flex-start;
+	    }
+	}
+
+	.button {
+		font-size: rem(25);
+		position: relative;
+		padding: 0 5px;
+		cursor: pointer;
+
+		color: $secondary;
+		background-color: $base;
+		transition: transform 0.25s ease;
+
+		&:hover {
+			transform: translate(1.5px, -1.5px);
+			transition: transform 0.25s ease;
+		}
+
+		&:after {
+			content: '';
+			cursor: pointer;
+			position: absolute;
+			border-left: 2px solid $base;
+			border-bottom: 2px solid $base;
+			left: -3.5px;
+			top: 3.5px;
+			height: 100%;
+			width: 100%;
+
+			transition-property: transform border-color;
+			transition-duration: 0.25s;
+			transition-timing-function: ease;
+		}
+
+		&:hover:after {
+			transform: translate(-2px, 2px);
+			border-color: $primary;
+			transition-property: transform border-color;
+			transition-duration: 0.25s;
+			transition-timing-function: ease;
+		}
+		
+
+		&--alt {
+			font-size: rem(20);
+			background-color: $secondary;
+			color: $base;
+
+			&:hover {
+				transform: translate(0, 0);
+			}
+
+			&:hover:after {
+				transform: translate(0, 0);
+				border-color: $primary;
+			}
+		}
+	}
+</style>

@@ -1,0 +1,10 @@
+query Sponsors {
+  sponsors {
+    id
+    order
+    logo {
+      url
+    }
+    url
+  }
+}

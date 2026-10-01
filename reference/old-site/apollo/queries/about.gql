@@ -1,0 +1,79 @@
+query About {
+  about {
+  	Banner {
+      background_position_v,
+      background_position_h,
+	    title,
+	    subtitle,
+	    image {
+	      url
+	    }
+  	},
+   	Intro {
+	    title,
+      number,
+	    content,
+	    logos {
+	    	url
+	    },
+	    image {
+	      url
+	    },
+      Button {
+        show
+        type
+        align
+        page
+        text
+      }
+  	},
+  	Craft {
+  		intro,
+  		laser_info {
+  			listItem
+  		},
+  		waszp_info {
+  			listItem
+  		},
+  		laser_image {
+  			url
+  		},
+  		waszp_image {
+  			url
+  		},
+  		outro,
+      Button {
+        show,
+        type,
+        align,
+        page,
+        text
+      }
+  	},
+  	ambition {
+  		intro,
+  		ambition_bar {
+        _id,
+  			title,
+  			percentage
+  		}
+  	},
+    Achievements {
+      _id,
+      year,
+      achievement_item {
+        id,
+        position,
+        competition
+      }
+    },
+    QA {
+      id,
+      qa_item {
+        id,
+        question,
+        answer
+      }
+    }
+  }
+}

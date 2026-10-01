@@ -1,0 +1,129 @@
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter, .page-leave-active {
+opacity: 0;
+}
+
+.fade-enter-active {
+  animation: acrossIn .40s ease-out both;
+} 
+.fade-leave-active {
+  animation: acrossOut .60s ease-in both;
+} 
+@keyframes acrossIn {
+  0% {
+    opacity: 0;
+    transform: translate3d(-10%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.body-text {
+    margin-left: 6rem;
+    margin-bottom: 0rem;
+    margin-top: -4rem;
+
+    @media #{$phone} {
+        margin-top: 1rem;
+        margin-left: 0;
+    }   
+}
+
+.container {
+    max-width: 1088px;
+    margin: 5rem auto;
+
+    @media (max-width: 1088px) {
+        margin: 0rem 30px 3rem;
+    }
+
+    @media #{$smallPhone} {
+        margin: 0rem 15px 3rem;
+    }
+
+    &--ms {
+        margin-top: 0;
+    }
+
+    &--mn {
+        margin-top: -3rem;
+        @media #{$phone} {
+            margin: 0;
+        }  
+    }
+
+    &--blog {
+      @media (max-width: 1088px) {
+          margin: 6rem auto;
+      }     
+    }
+
+    &--two {
+      display: grid;
+      grid-template: none / 1fr 1fr;
+      grid-gap: 1rem;
+      margin-bottom: 5rem;
+
+      &-mg {
+        margin-top: -2rem;
+      }
+
+      
+      @media #{$phone} {
+          grid-template: none / 1fr;
+          margin-top: 0rem;
+      }
+    }
+
+    &--text {
+      margin: 0rem 50px 3rem;
+
+      @media (max-width: 830px) {
+          margin: 0rem 30px 3rem;
+      }
+    }
+
+    &--thin {
+      max-width: 600px;
+
+      @media (max-width: 1088px) {
+          margin: 0rem auto 3rem;
+      }
+      @media (max-width: 600px) {
+          margin: 0rem 30px 3rem;
+      }
+    }
+
+}
+
+.number {
+    font-family: $fontPrimary;
+    font-size: 12.5rem;
+    font-weight: 900;
+
+        @media #{$phone} {
+            font-size: 100px;
+        }
+
+    &--red {
+        color: $primary;
+    }
+}
+
+.flex {
+    display: flex;
+
+    &--two {
+        
+
+        @media #{$smallPhone} {
+            grid-template: repeat(2, 1fr) / 1fr;
+            grid-gap: 1rem 1rem;
+         } 
+    }
+}
+

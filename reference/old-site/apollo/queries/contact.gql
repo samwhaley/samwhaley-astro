@@ -1,0 +1,14 @@
+query Contact {
+  contact {
+  	Banner {
+      background_position_v,
+      background_position_h,
+	    title,
+	    subtitle,
+	    image {
+	      url
+	    } 	
+  	},
+    intro
+  }
+}
