@@ -1,5 +1,11 @@
 <template>
-    <form @submit="submitForm" class="form" name="contact" method="POST" action="/contact?sent" data-netlify="true" netlify-honeypot="bot-field">
+    <transition name="swap" mode="out-in">
+    <div v-if="sent" class="thanks" role="status" aria-live="polite">
+        <h2 class="thanks__title">Thank you{{ sentName ? ', ' + sentName : '' }}!</h2>
+        <p class="thanks__text">Your message has been sent. Thanks for getting in touch &mdash; I'll get back to you as soon as I can.</p>
+        <button class="button" type="button" @click="reset">send another</button>
+    </div>
+    <form v-else @submit="submitForm" class="form" name="contact" method="POST" action="/contact?sent" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact">
         <p class="form__hidden">
             <label>Leave this empty: <input v-model="botField" name="bot-field" tabindex="-1" autocomplete="off"></label>
@@ -29,6 +35,7 @@
             <button class="button" type="submit">{{ sendProcess }}</button>
         </div>
     </form>
+    </transition>
 </template>
 
 <script>
@@ -44,12 +51,24 @@ export default {
             message: '',
             messageError: '',
             botField: '',
+            sent: false,
+            sentName: '',
             errors: [],
             sendProcess: 'submit'
         }
     },
 
+    mounted() {
+        // Without JavaScript Netlify redirects back here with ?sent.
+        if (new URLSearchParams(window.location.search).has('sent')) this.sent = true
+    },
+
     methods: {
+        reset() {
+            this.sent = false
+            this.sentName = ''
+            this.sendProcess = 'submit'
+        },
         textAreaResize() {
             const message = this.$refs.messageEl
             message.style.height = "";
@@ -97,7 +116,8 @@ export default {
                 }).toString()
             }).then((response) => {
                 if (!response.ok) throw new Error(response.statusText)
-                this.sendProcess = 'sent!'
+                this.sentName = this.name.trim().split(/\s+/)[0]
+                this.sent = true
                 this.name = ''
                 this.email = ''
                 this.message = ''
@@ -110,6 +130,42 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+	.thanks {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    min-height: 100%;
+	    padding: 10px 0;
+
+	    &__title {
+	        font-family: $fontPrimary;
+	        font-size: 2rem;
+	        margin-bottom: 1rem;
+	    }
+
+	    &__text {
+	        font-family: $fontSecondary;
+	        font-size: 1.2rem;
+	        margin-bottom: 2rem;
+	    }
+
+	    button {
+	        cursor: pointer;
+	        margin: 0 auto 0 0;
+	    }
+	}
+
+	.swap-enter-active,
+	.swap-leave-active {
+	    transition: opacity 0.3s ease, transform 0.3s ease;
+	}
+
+	.swap-enter-from,
+	.swap-leave-to {
+	    opacity: 0;
+	    transform: translate3d(0, 10px, 0);
+	}
+
 	.form {
 	    font-family: $fontSecondary;
 	    font-size: 1.2rem;
