@@ -1,0 +1,22 @@
+---
+import Banner from '../../components/Banner.vue';
+import NewsList from '../../components/NewsList.vue';
+import SectionTitle from '../../components/SectionTitle.vue';
+import Social from '../../components/Social.vue';
+import Layout from '../../layouts/Layout.astro';
+import { bannerProps, getPage, getPosts, toCard } from '../../lib/content';
+import { markdown } from '../../lib/markdown';
+
+const page = await getPage('news');
+const posts = (await getPosts()).map(toCard);
+---
+
+<Layout title="News" image={page.banner.image}>
+  <Banner arrow {...bannerProps(page.banner)} />
+  <div class="container">
+    <SectionTitle class="sectionTitle--top" title={page.introTitle} number="1" />
+    <div class="body-text" set:html={markdown(page.introContent)} />
+    <NewsList client:visible items={posts} />
+    <Social />
+  </div>
+</Layout>

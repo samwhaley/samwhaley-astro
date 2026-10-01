@@ -1,0 +1,71 @@
+---
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import '../styles/main.scss';
+import AltNav from '../components/AltNav.vue';
+import CookieBanner from '../components/CookieBanner.vue';
+import Footer from '../components/Footer.vue';
+import Nav from '../components/Nav.vue';
+import { getSponsors } from '../lib/content';
+import { img } from '../lib/images';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../lib/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string | null;
+  footer?: boolean;
+}
+
+const { title, description = SITE_DESCRIPTION, image, footer = true } = Astro.props;
+const fullTitle = title ? `${title} - ${SITE_TITLE}` : SITE_TITLE;
+const gaId = import.meta.env.PUBLIC_GA_ID;
+const current = Astro.url.pathname.replace(/\.html$/, '').replace(/(.)\/$/, '$1');
+const canonical = new URL(current, Astro.site);
+const ogImage = image ? new URL(img(image, 1200), Astro.site) : null;
+const sponsorLogos = footer ? (await getSponsors()).map((s) => img(s.logo, 400)).filter(Boolean) : [];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:300,400,600,800|Roboto:300,400&display=swap" />
+  </head>
+  <body>
+    <slot />
+    {footer && <Footer logos={sponsorLogos} cookieSettings={!!gaId} />}
+
+    <!-- The old site picked one menu by window width in JS; CSS does it here. -->
+    <div class="nav-desktop"><Nav client:load current={current} /></div>
+    <div class="nav-mobile"><AltNav client:load current={current} /></div>
+
+    {gaId && <CookieBanner client:idle gaId={gaId} />}
+  </body>
+</html>
+
+<style>
+  .nav-mobile {
+    display: none;
+  }
+  @media (max-width: 699px) {
+    .nav-desktop {
+      display: none;
+    }
+    .nav-mobile {
+      display: block;
+    }
+  }
+</style>

@@ -3,11 +3,29 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
     "migrate:content": "node scripts/migrate/content.mjs",
     "migrate:images": "node scripts/migrate/images.mjs"
   },
   "devDependencies": {
+    "@types/markdown-it": "^14.2.0",
+    "sass": "^1.105.1",
     "sharp": "^0.35.5",
+    "typescript": "^5.9.3",
     "yaml": "^2.9.1"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@astrojs/vue": "^7.0.3",
+    "@fortawesome/fontawesome-svg-core": "^7.3.1",
+    "@fortawesome/free-brands-svg-icons": "^7.3.1",
+    "@fortawesome/free-solid-svg-icons": "^7.3.1",
+    "@fortawesome/vue-fontawesome": "^3.3.3",
+    "astro": "^7.3.5",
+    "markdown-it": "^15.0.2",
+    "vue": "^3.5.43"
   }
 }

@@ -1,0 +1,30 @@
+---
+import Banner from '../components/Banner.vue';
+import Intro from '../components/Intro.vue';
+import SecondarySponsors from '../components/SecondarySponsors.vue';
+import SectionTitle from '../components/SectionTitle.vue';
+import Social from '../components/Social.vue';
+import Layout from '../layouts/Layout.astro';
+import { bannerProps, getPage, toIntro } from '../lib/content';
+import { cssUrl } from '../lib/images';
+import { markdown } from '../lib/markdown';
+
+const page = await getPage('sponsors');
+type Item = { title: string; logo?: string | null; content: string; link: string };
+const toItems = (list?: { sponsorItem: Item[] }) =>
+  (list?.sponsorItem ?? []).map((s) => ({ ...s, logo: cssUrl(s.logo, 600), content: markdown(s.content) }));
+const donate = page.donateComponent ? toIntro(page.donateComponent) : null;
+---
+
+<Layout title="Sponsors" image={page.banner.image}>
+  <Banner arrow {...bannerProps(page.banner)} />
+  <div class="container">
+    <SectionTitle class="sectionTitle--top" title={page.introductionTitle} number="1" />
+    <div class="body-text" set:html={markdown(page.introductionContent)} />
+    <!-- The old page used the "secondary" layout for both lists. -->
+    <SecondarySponsors items={toItems(page.mainSponsors)} />
+    <SecondarySponsors items={toItems(page.secondarySponsors)} />
+    {donate && <Intro client:visible {...donate} marginTop />}
+    <Social />
+  </div>
+</Layout>

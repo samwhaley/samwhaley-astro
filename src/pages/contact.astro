@@ -1,0 +1,52 @@
+---
+import Banner from '../components/Banner.vue';
+import ContactForm from '../components/ContactForm.vue';
+import SectionTitle from '../components/SectionTitle.vue';
+import Social from '../components/Social.vue';
+import SponsorsCarousel from '../components/SponsorsCarousel.vue';
+import Layout from '../layouts/Layout.astro';
+import { bannerProps, getPage, getSponsors } from '../lib/content';
+import { cssUrl } from '../lib/images';
+import { markdown } from '../lib/markdown';
+
+const page = await getPage('contact');
+const intro = typeof page.intro === 'string' ? page.intro : '';
+const carousel = (await getSponsors()).map((s) => ({ logo: cssUrl(s.logo, 800) }));
+// Same spot as the old interactive map (Swanage). The embed needs no API key.
+const map = 'https://maps.google.com/maps?q=50.6112231,-1.960818&z=11&output=embed';
+---
+
+<Layout title="Contact" image={page.banner.image}>
+  <Banner arrow {...bannerProps(page.banner)} />
+  <div class="container">
+    <SectionTitle class="sectionTitle--top" title="Contact Sam" number="1" />
+    {intro && <div class="body-text" set:html={markdown(intro)} />}
+    <div class="container container--two container--mn">
+      <div class="map">
+        <iframe src={map} title="Map of Swanage, Dorset" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div>
+        <ContactForm client:load />
+      </div>
+    </div>
+    <Social />
+  </div>
+  <SponsorsCarousel client:visible sponsors={carousel} />
+</Layout>
+
+<style lang="scss">
+  .map {
+    min-height: 400px;
+
+    @media #{$phone} {
+      margin-top: 1rem;
+    }
+
+    iframe {
+      border: 0;
+      height: 100%;
+      min-height: 400px;
+      width: 100%;
+    }
+  }
+</style>

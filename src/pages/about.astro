@@ -1,0 +1,59 @@
+---
+import Achievements from '../components/Achievements.vue';
+import Ambition from '../components/Ambition.vue';
+import Banner from '../components/Banner.vue';
+import Craft from '../components/Craft.vue';
+import Intro from '../components/Intro.vue';
+import QA from '../components/QA.vue';
+import SectionTitle from '../components/SectionTitle.vue';
+import Social from '../components/Social.vue';
+import Layout from '../layouts/Layout.astro';
+import { bannerProps, getPage, toButton, toIntro } from '../lib/content';
+import { img } from '../lib/images';
+import { markdown } from '../lib/markdown';
+
+const page = await getPage('about');
+const intro = page.intro && typeof page.intro === 'object' ? toIntro(page.intro) : null;
+const craft = page.craft && {
+  ...page.craft,
+  intro: markdown(page.craft.intro),
+  outro: markdown(page.craft.outro),
+  laserImage: img(page.craft.laserImage, 1000),
+  waszpImage: img(page.craft.waszpImage, 1000),
+  button: toButton(page.craft.button),
+};
+const ambition = page.ambition;
+const qa = (page.qa?.qaItem ?? []).map((q) => ({ question: q.question, answer: markdown(q.answer) }));
+---
+
+<Layout title="About" image={page.banner.image}>
+  <Banner arrow {...bannerProps(page.banner)} />
+  <div class="container">
+    {intro && <Intro client:visible {...intro} alt />}
+
+    <SectionTitle title="CRAFT" number="2" />
+    {craft && <Craft client:visible craft={craft} />}
+
+    <SectionTitle class="sectionTitle--top" title="AMBITION" number="3" right />
+    {ambition && <Ambition client:visible intro={markdown(ambition.intro)} bars={ambition.ambitionBar} />}
+
+    <div class="achievement-container">
+      <SectionTitle title="ACHIEVEMENTS" number="4" />
+      <Achievements client:visible achievements={page.achievements ?? []} />
+    </div>
+    <QA client:visible items={qa} />
+    <Social />
+  </div>
+</Layout>
+
+<style lang="scss">
+  .achievement-container {
+    margin-top: 15rem;
+    overflow: hidden;
+    position: relative;
+
+    @media #{$phone} {
+      margin-top: 0rem;
+    }
+  }
+</style>

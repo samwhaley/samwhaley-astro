@@ -1,0 +1,137 @@
+---
+import type { GetStaticPaths } from 'astro';
+import ButtonLink from '../../components/ButtonLink.vue';
+import ButtonUrl from '../../components/ButtonUrl.vue';
+import Youtube from '../../components/Youtube.vue';
+import Layout from '../../layouts/Layout.astro';
+import { getPosts } from '../../lib/content';
+import { cssUrl } from '../../lib/images';
+import { markdown } from '../../lib/markdown';
+import { youtubeEmbed } from '../../lib/site';
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}) satisfies GetStaticPaths;
+
+const { post } = Astro.props;
+const { data } = post;
+const sections = [
+  { html: markdown(post.body, { newTab: true }), youtube: youtubeEmbed(data.youtube) },
+  { html: markdown(data.body2, { newTab: true }), youtube: youtubeEmbed(data.youtube2) },
+  { html: markdown(data.body3, { newTab: true }), youtube: '' },
+];
+---
+
+<Layout title={data.title} description={data.preview || undefined} image={data.image}>
+  <div class="button__container button__container--blog">
+    <a href="/news" class="button button--alt">back</a>
+  </div>
+  <div class="container container--blog">
+    <div class="newsBanner" style={{ backgroundImage: cssUrl(data.image), backgroundPosition: data.thumbnailPosition }}>
+      <h2 class="newsBanner__date">
+        <span class="newsBanner__date--red">{data.displayDate.slice(0, 2)}</span>{data.displayDate.slice(2, 6)}
+      </h2>
+    </div>
+    <h4 class="newsItem__title">{data.title}</h4>
+    <div class="container container--text">
+      <p class="newsItem__date">{data.displayDate}</p>
+
+      {
+        sections.map(({ html, youtube }) => (
+          <>
+            {html && <div class="news__content" set:html={html} />}
+            {youtube && (
+              <div class="news__youtube">
+                <Youtube link={youtube} />
+              </div>
+            )}
+          </>
+        ))
+      }
+
+      {
+        data.links.length > 0 && (
+          <div class="news__links">
+            <h6>Links:</h6>
+            {data.links.map((link) => (
+              <div class="news__link">
+                <ButtonUrl route={link.url} text={link.title} type="alt" align="left" />
+              </div>
+            ))}
+          </div>
+        )
+      }
+      <ButtonLink route="/news" text="back to news" type="standard" align="left" />
+    </div>
+  </div>
+</Layout>
+
+<style lang="scss">
+  .newsBanner {
+    animation: pageAppear 0.5s both;
+    margin-left: 20vw;
+    height: 56vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .newsBanner__date {
+    font-size: 70px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg) translate(-80.7px, -155px);
+    text-transform: uppercase;
+
+    &--red {
+      color: $primary;
+    }
+  }
+  .newsItem__title {
+    text-align: right;
+    margin: 1.5rem 2rem 0rem;
+    text-transform: uppercase;
+
+    @media #{$smallPhone} {
+      text-align: left;
+    }
+  }
+  .newsItem__date {
+    margin: 0;
+    font-style: italic;
+    text-align: right;
+
+    @media #{$smallPhone} {
+      text-align: left;
+    }
+  }
+
+  .news__links {
+    margin-bottom: 2rem;
+  }
+
+  // Rendered Markdown. The old page styled these from JavaScript after load
+  // (and only in the first text section); here it's plain CSS for all of them.
+  .news__content {
+    margin-bottom: 2.5rem;
+    max-width: 700px;
+
+    :global(a) {
+      color: $primary;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    :global(p img) {
+      margin: 1rem 0;
+      width: 100%;
+
+      @media #{$phone} {
+        margin: 0 0.7rem 1rem;
+        max-width: calc(100% - 1.4rem);
+      }
+    }
+  }
+</style>

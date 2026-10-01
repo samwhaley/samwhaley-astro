@@ -1,0 +1,31 @@
+---
+import Banner from '../components/Banner.vue';
+import CoachingBoats from '../components/CoachingBoats.vue';
+import SectionTitle from '../components/SectionTitle.vue';
+import Services from '../components/Services.vue';
+import Social from '../components/Social.vue';
+import Layout from '../layouts/Layout.astro';
+import { bannerProps, getPage } from '../lib/content';
+import { cssUrl } from '../lib/images';
+import { markdown } from '../lib/markdown';
+
+const page = await getPage('coaching');
+const boats = (page.coachingBoats?.boat ?? []).map((b) => ({
+  ...b,
+  content: markdown(b.content),
+  image: cssUrl(b.image, 1000),
+}));
+const services = (page.services?.service ?? []).map((s) => ({ ...s, image: cssUrl(s.image, 800) }));
+---
+
+<Layout title="Coaching" image={page.banner.image}>
+  <Banner arrow {...bannerProps(page.banner)} />
+  <div class="container">
+    <SectionTitle class="sectionTitle--top" title={page.introTitle} number="1" />
+    <div class="body-text" set:html={markdown(page.introContent)} />
+    <CoachingBoats client:visible boats={boats} />
+    <SectionTitle class="sectionTitle--top" title="Services" number="2" right />
+    <Services serviceItems={services} />
+    <Social />
+  </div>
+</Layout>

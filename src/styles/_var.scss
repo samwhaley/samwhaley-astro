@@ -1,0 +1,4 @@
+// Injected into every component's <style lang="scss"> (see astro.config.mjs).
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';

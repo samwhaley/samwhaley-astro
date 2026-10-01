@@ -1,0 +1,309 @@
+# Sveltia CMS (https://github.com/sveltia/sveltia-cms) — edit content at /admin.
+# Saving commits to the repo; Netlify then rebuilds the site (about a minute).
+# Anyone with write access to the GitHub repo can log in.
+
+backend:
+  name: github
+  repo: therealJonSnow/samwhaley-astro
+  branch: main
+  # GitHub login goes through Netlify's OAuth service (the GitHub OAuth app's
+  # client ID and secret live in Netlify, not here).
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+site_url: https://samwhaley.com
+display_url: https://samwhaley.com
+logo_url: /images/logo.png
+
+media_folder: public/uploads
+public_folder: /uploads
+
+media_libraries:
+  default:
+    config:
+      # Shrink uploads in the browser before they are committed, so the repo stays small.
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 2400
+          height: 2400
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: news
+    label: News
+    label_singular: Post
+    folder: src/content/news
+    extension: md
+    format: frontmatter
+    create: true
+    identifier_field: title
+    slug: "{{slug}}"
+    summary: "{{displayDate}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    view_filters:
+      - { label: Drafts, field: draft, pattern: true }
+    fields:
+      - { name: title, label: Title, widget: string }
+      - name: slug
+        label: URL
+        widget: string
+        required: false
+        hint: The post's address, samwhaley.com/news/<this>. Leave empty for new posts to use the file name. Changing it on a published post breaks old links.
+        pattern: ["^[A-Za-z0-9-]*$", "Letters, numbers and hyphens only"]
+      - name: date
+        label: Date
+        widget: datetime
+        format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+        hint: Used to order posts, newest first.
+      - name: displayDate
+        label: Date as shown
+        widget: string
+        hint: Shown exactly as typed, e.g. "14 April 2020". The first two characters (the day) appear in red.
+      - { name: preview, label: Preview text, widget: text, hint: Shown on the news list. }
+      - { name: image, label: Header image, widget: image, required: false }
+      - name: thumbnailPosition
+        label: Header image focus
+        widget: select
+        options: [center, left, right, top, bottom]
+        default: center
+      - { name: body, label: Text, widget: markdown }
+      - name: youtube
+        label: YouTube video
+        widget: string
+        required: false
+        hint: A YouTube link, shown after the text.
+      - { name: body2, label: Text (after video), widget: markdown, required: false }
+      - { name: youtube2, label: Second YouTube video, widget: string, required: false }
+      - { name: body3, label: Text (after second video), widget: markdown, required: false }
+      - name: links
+        label: Links
+        label_singular: Link
+        widget: list
+        required: false
+        summary: "{{title}}"
+        fields:
+          - { name: title, label: Text, widget: string }
+          - { name: url, label: URL, widget: string }
+          - { name: image, label: Image, widget: image, required: false }
+      - name: draft
+        label: Draft
+        widget: boolean
+        default: false
+        hint: Drafts are saved but not shown on the site.
+
+  - name: pages
+    label: Pages
+    files:
+      - name: home
+        label: Home
+        file: src/content/pages/home.json
+        fields:
+          - &banner
+            name: banner
+            label: Banner
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string, required: false }
+              - { name: subtitle, label: Subtitle, widget: string, required: false }
+              - { name: image, label: Image, widget: image }
+              - { name: backgroundPositionV, label: Image focus (vertical), widget: select, options: [center, top, bottom], default: center }
+              - { name: backgroundPositionH, label: Image focus (horizontal), widget: select, options: [center, left, right], default: center }
+          - name: intro
+            label: Intro
+            widget: object
+            fields: &intro
+              - { name: title, label: Title, widget: string }
+              - { name: content, label: Text, widget: markdown }
+              - { name: image, label: Image, widget: image, required: false }
+              - name: button
+                label: Button
+                widget: object
+                fields: &button
+                  - { name: show, label: Show button, widget: boolean, default: true }
+                  - { name: text, label: Text, widget: string, required: false }
+                  - { name: page, label: Links to, widget: string, required: false, hint: "A page, e.g. about or /contact" }
+                  - { name: type, label: Style, widget: select, options: [standard, alt], default: standard }
+                  - { name: align, label: Alignment, widget: select, options: [left, right, center], default: left }
+              - { name: number, label: Section number, widget: number, value_type: int, required: false }
+              - name: logos
+                label: Logos
+                widget: list
+                required: false
+                field: { name: logo, label: Logo, widget: image }
+          - name: pageLinks
+            label: Page links
+            label_singular: Page link
+            widget: list
+            summary: "{{title}}"
+            hint: The two blocks after the news. Their section numbers are always 03 and 04.
+            fields: *intro
+
+      - name: about
+        label: About
+        file: src/content/pages/about.json
+        fields:
+          - *banner
+          - { name: intro, label: Intro, widget: object, fields: *intro }
+          - name: craft
+            label: Craft
+            widget: object
+            fields:
+              - { name: intro, label: Text, widget: markdown }
+              - { name: laserImage, label: Laser image, widget: image }
+              - name: laserInfo
+                label: Laser facts
+                widget: list
+                summary: "{{listItem}}"
+                fields: [{ name: listItem, label: Fact, widget: string }]
+              - { name: waszpImage, label: Waszp image, widget: image }
+              - name: waszpInfo
+                label: Waszp facts
+                widget: list
+                summary: "{{listItem}}"
+                fields: [{ name: listItem, label: Fact, widget: string }]
+              - { name: outro, label: Closing text, widget: markdown, required: false }
+              - { name: button, label: Button, widget: object, fields: *button }
+          - name: ambition
+            label: Ambition
+            widget: object
+            fields:
+              - { name: intro, label: Text, widget: markdown }
+              - name: ambitionBar
+                label: Bars
+                label_singular: Bar
+                widget: list
+                summary: "{{title}} ({{percentage}}%)"
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: percentage, label: Percentage, widget: number, value_type: int, min: 0, max: 100 }
+          - name: achievements
+            label: Achievements
+            label_singular: Slide
+            widget: list
+            summary: "{{year}}"
+            hint: Each item is one slide of the carousel.
+            fields:
+              - { name: year, label: Heading, widget: string }
+              - name: achievementItem
+                label: Results
+                label_singular: Result
+                widget: list
+                summary: "{{position}} {{competition}}"
+                fields:
+                  - { name: position, label: Position, widget: string }
+                  - { name: competition, label: Competition, widget: string }
+          - name: qa
+            label: Q&A
+            widget: object
+            fields:
+              - name: qaItem
+                label: Questions
+                label_singular: Question
+                widget: list
+                summary: "{{question}}"
+                fields:
+                  - { name: question, label: Question, widget: string }
+                  - { name: answer, label: Answer, widget: markdown }
+
+      - name: coaching
+        label: Coaching
+        file: src/content/pages/coaching.json
+        fields:
+          - *banner
+          - { name: introTitle, label: Intro title, widget: string }
+          - { name: introContent, label: Intro text, widget: markdown }
+          - name: coachingBoats
+            label: Boats
+            widget: object
+            fields:
+              - name: boat
+                label: Boats
+                label_singular: Boat
+                widget: list
+                summary: "{{boatName}}"
+                fields:
+                  - { name: boatName, label: Tab name, widget: string }
+                  - { name: title, label: Title, widget: string }
+                  - { name: content, label: Text, widget: markdown }
+                  - { name: image, label: Image, widget: image }
+                  - { name: backgroundPosition, label: Image focus, widget: select, options: [center, left, right, top, bottom], default: center }
+          - name: services
+            label: Services
+            widget: object
+            fields:
+              - name: service
+                label: Services
+                label_singular: Service
+                widget: list
+                summary: "{{title}}"
+                fields:
+                  - { name: boldText, label: Big text, widget: string }
+                  - { name: title, label: Title, widget: string }
+                  - { name: content, label: Text, widget: text }
+                  - { name: image, label: Image, widget: image }
+
+      - name: contact
+        label: Contact
+        file: src/content/pages/contact.json
+        fields:
+          - *banner
+          - { name: intro, label: Intro text, widget: markdown, required: false }
+
+      - name: news
+        label: News (list page)
+        file: src/content/pages/news.json
+        fields:
+          - *banner
+          - { name: introTitle, label: Intro title, widget: string }
+          - { name: introContent, label: Intro text, widget: markdown }
+
+      - name: sponsors
+        label: Sponsors
+        file: src/content/pages/sponsors.json
+        fields:
+          - *banner
+          - { name: introductionTitle, label: Intro title, widget: string }
+          - { name: introductionContent, label: Intro text, widget: markdown }
+          - name: mainSponsors
+            label: Sponsors (first group)
+            widget: object
+            fields:
+              - &sponsorItems
+                name: sponsorItem
+                label: Sponsors
+                label_singular: Sponsor
+                widget: list
+                summary: "{{title}}"
+                fields:
+                  - { name: title, label: Name, widget: string }
+                  - { name: logo, label: Logo, widget: image }
+                  - { name: content, label: Text, widget: markdown }
+                  - { name: link, label: Website, widget: string }
+          - { name: secondarySponsors, label: Sponsors (second group), widget: object, fields: [*sponsorItems] }
+          - { name: donateComponent, label: Support Sam block, widget: object, fields: *intro }
+
+  - name: site
+    label: Site
+    files:
+      - name: sponsors
+        label: Sponsor logos
+        file: src/content/site/sponsors.json
+        fields:
+          - name: sponsors
+            label: Logos
+            label_singular: Logo
+            widget: list
+            summary: "{{url}}"
+            hint: The logo strip in the footer and the carousel on the home and contact pages, in this order.
+            fields:
+              - { name: logo, label: Logo, widget: image }
+              - { name: url, label: Website, widget: string, required: false }

@@ -1,0 +1,41 @@
+// VARIABLES
+
+// colours
+
+$black: #000;
+$red: #D80000;
+$grey: #707070;
+
+$base: $black;
+$primary: $red;
+$secondary: #FFF;
+
+// fonts
+$fontManrope: 'Manrope', Helvetica, Arial, sans-serif;
+$fontRoboto: 'Roboto', Helvetica, Arial, sans-serif;
+
+$fontPrimary: $fontManrope;
+$fontSecondary: $fontRoboto;
+
+$baseFontSize: 16px;
+$tabletFontSize: 14px;
+$phoneFontSize: 14px;
+$smallPhoneFontSize: 14px;
+
+// breakpoints
+$desktop: "(max-width: 1450px)";
+$tablet: "(max-width: 1000px)";
+$phone: "(max-width: 600px)";
+$smallPhone: "(max-width: 475px)";
+
+// misc
+$browserContext: 16;
+$gutter: 5rem;
+$gutterSmall: 2rem;
+
+// z-index
+$z-index: (
+  // keep in hierarchical order in tens!
+  nav: 50,
+  button-triangle: 20
+)

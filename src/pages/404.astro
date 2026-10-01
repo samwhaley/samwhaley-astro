@@ -1,0 +1,15 @@
+---
+import Banner from '../components/Banner.vue';
+import Layout from '../layouts/Layout.astro';
+import { cssUrl } from '../lib/images';
+---
+
+<Layout title="Page not found" footer={false}>
+  <Banner
+    bgPositionV="center"
+    bgPositionH="center"
+    image={cssUrl('/uploads/IMG_0935_7ae02c8337.jpeg')}
+    title="Oops!"
+    error="Sailed a bit of a header there. This page isn't here anymore"
+  />
+</Layout>

@@ -1,0 +1,38 @@
+---
+import Banner from '../components/Banner.vue';
+import ButtonLink from '../components/ButtonLink.vue';
+import Intro from '../components/Intro.vue';
+import NewsGrid from '../components/NewsGrid.vue';
+import SectionTitle from '../components/SectionTitle.vue';
+import Social from '../components/Social.vue';
+import SponsorsCarousel from '../components/SponsorsCarousel.vue';
+import Layout from '../layouts/Layout.astro';
+import { bannerProps, getPage, getPosts, getSponsors, toCard, toIntro } from '../lib/content';
+import { cssUrl } from '../lib/images';
+
+const page = await getPage('home');
+const intro = page.intro && typeof page.intro === 'object' ? toIntro(page.intro) : null;
+const pageLinks = (page.pageLinks ?? []).map(toIntro);
+const latest = (await getPosts()).slice(0, 2).map(toCard);
+const carousel = (await getSponsors()).map((s) => ({ logo: cssUrl(s.logo, 800) }));
+---
+
+<Layout image={page.banner.image}>
+  <Banner arrow {...bannerProps(page.banner)} />
+  <div class="container">
+    {intro && <Intro client:visible {...intro} />}
+  </div>
+  <SponsorsCarousel client:visible sponsors={carousel} />
+  <div class="container container--ms">
+    <SectionTitle class="sectionTitle--top-sm" title="LATEST NEWS" number="2" right />
+    <div class="newsGrid__container--pull-up">
+      <NewsGrid newsItems={latest} />
+      <div class="button__container button__container--center">
+        <ButtonLink route="/news" text="more news" type="" align="--center" />
+      </div>
+    </div>
+    {pageLinks[0] && <Intro client:visible {...pageLinks[0]} number={3} alt marginTop />}
+    {pageLinks[1] && <Intro client:visible {...pageLinks[1]} number={4} marginTop />}
+    <Social />
+  </div>
+</Layout>

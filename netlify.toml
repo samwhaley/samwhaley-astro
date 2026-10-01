@@ -1,0 +1,31 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Uploaded images never change name, so they can be cached for a long time.
+[[headers]]
+  for = "/uploads/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+# Old Strapi image links (from search engines, social posts or other sites).
+# Only takes effect once admin.samwhaley.com is added to the Netlify site as a domain alias.
+[[redirects]]
+  from = "https://admin.samwhaley.com/uploads/*"
+  to = "https://samwhaley.com/uploads/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://admin.samwhaley.com/*"
+  to = "https://samwhaley.com/"
+  status = 301
+  force = true
