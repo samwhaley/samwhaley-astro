@@ -1,5 +1,5 @@
 ---
-title: Up To The Olympics
+title: Build Up To The Olympics
 slug: paris2024buildup
 date: 2025-05-07
 displayDate: 07 May
