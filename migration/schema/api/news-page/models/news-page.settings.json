@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_pages",
+  "info": {
+    "name": "NewsPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "intro_title": {
+      "type": "string",
+      "required": true
+    },
+    "intro_content": {
+      "type": "richtext",
+      "required": true
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.banner"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+[{
+	"_id": {
+		"$oid": "5eb93429cab5710ce8a0adde"
+	},
+	"title": "Sam Whaley",
+	"subtitle": "Professional Sailor",
+	"createdAt": {
+		"$date": "2020-05-11T11:16:57.371Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T17:56:10.681Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5ec82b47f0715a4750875560"
+	},
+	"background_position": "left",
+	"background_position_h": "left",
+	"background_position_v": "top"
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa78"
+	},
+	"title": "About",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.025Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.300Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5eb9508ab912d815d87baa6d"
+	},
+	"background_position": "right",
+	"background_position_h": "center",
+	"background_position_v": "bottom",
+	"subtitle": ""
+},
+{
+	"_id": {
+		"$oid": "5eb9524ab912d815d87baad9"
+	},
+	"title": "News",
+	"createdAt": {
+		"$date": "2020-05-11T13:25:30.515Z"
+	},
+	"updatedAt": {
+		"$date": "2022-12-15T23:16:33.412Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5ec8560df0715a4750875590"
+	},
+	"background_position": "right",
+	"background_position_h": "left",
+	"background_position_v": "bottom"
+},
+{
+	"_id": {
+		"$oid": "5eb95345b912d815d87baadd"
+	},
+	"title": "Sponsors",
+	"createdAt": {
+		"$date": "2020-05-11T13:29:41.016Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:48.726Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5eb95087b912d815d87baa63"
+	},
+	"background_position": "center",
+	"background_position_h": "center",
+	"background_position_v": "bottom"
+},
+{
+	"_id": {
+		"$oid": "5eb95485b912d815d87baafd"
+	},
+	"title": "Coaching",
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.837Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.219Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5ec856a7f0715a4750875593"
+	},
+	"background_position": "right",
+	"background_position_h": "left",
+	"background_position_v": "bottom"
+},
+{
+	"_id": {
+		"$oid": "5eb954b2b912d815d87bab17"
+	},
+	"title": "Contact",
+	"createdAt": {
+		"$date": "2020-05-11T13:35:46.265Z"
+	},
+	"updatedAt": {
+		"$date": "2021-10-21T09:56:25.501Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "60d081adeda61c7916a418a0"
+	},
+	"background_position": "center",
+	"background_position_h": "right",
+	"background_position_v": "bottom"
+},
+{
+	"_id": {
+		"$oid": "5ece44cc5fc4313269fcf682"
+	},
+	"background_position_v": "center",
+	"background_position_h": "center",
+	"title": "You're Lost",
+	"subtitle": "Sorry this page doesn't exist",
+	"createdAt": {
+		"$date": "2020-05-27T10:45:32.548Z"
+	},
+	"updatedAt": {
+		"$date": "2020-05-27T10:47:36.573Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5ec9709af0715a47508755da"
+	}
+}]
+

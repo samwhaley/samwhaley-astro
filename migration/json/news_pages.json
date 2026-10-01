@@ -1,0 +1,26 @@
+[{
+	"_id": {
+		"$oid": "5eb9524ab912d815d87baad8"
+	},
+	"intro_content": "Keep up with the latest news from inside of the British Sailing Team on all things yachting. Want to get notified about new posts? Simply sign up with your email at the bottom of the page to receive quarterly updates straight to your mailbox.",
+	"intro_title": "Latest News",
+	"Banner": [
+		{
+			"_id": {
+				"$oid": "639baad11b2ccb6248653827"
+			},
+			"kind": "ComponentGlobalBanner",
+			"ref": {
+				"$oid": "5eb9524ab912d815d87baad9"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:25:30.512Z"
+	},
+	"updatedAt": {
+		"$date": "2022-12-15T23:16:33.432Z"
+	},
+	"__v": 1
+}]
+

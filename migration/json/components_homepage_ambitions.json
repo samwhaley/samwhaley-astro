@@ -1,0 +1,70 @@
+[{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baaa8"
+	},
+	"intro": "Sam is part of the British Sailing Team, the most successful Olympic sailing team of all time. With his burning ambition to one day represent Great Britain at the Olympic Games, he is only part way through his journey to reach the top.\n\nWhilst the next few step for Sam will undoubtedly be the hardest, his goal of representing Team GB at the Olympics and returning with a medal is just one small step away.",
+	"ambition_bar": [
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541d2"
+			},
+			"kind": "ComponentHomepageAmbitionBar",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baaa9"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541d1"
+			},
+			"kind": "ComponentHomepageAmbitionBar",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baaaa"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541d0"
+			},
+			"kind": "ComponentHomepageAmbitionBar",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baaab"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541cf"
+			},
+			"kind": "ComponentHomepageAmbitionBar",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baaac"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541ce"
+			},
+			"kind": "ComponentHomepageAmbitionBar",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baaad"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541cd"
+			},
+			"kind": "ComponentHomepageAmbitionBar",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baaae"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.240Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.545Z"
+	},
+	"__v": 1
+}]
+

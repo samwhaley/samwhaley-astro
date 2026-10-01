@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_homepage_crafts",
+  "info": {
+    "name": "craft",
+    "icon": "ship"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "richtext",
+      "required": true
+    },
+    "laser_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "waszp_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "laser_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list"
+    },
+    "waszp_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list"
+    },
+    "outro": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.button"
+    }
+  }
+}

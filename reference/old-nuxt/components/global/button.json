@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_global_buttons",
+  "info": {
+    "name": "button",
+    "icon": "band-aid"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "alt"
+      ]
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ],
+      "required": true,
+      "default": "left"
+    },
+    "show": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

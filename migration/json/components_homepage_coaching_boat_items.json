@@ -1,0 +1,58 @@
+[{
+	"_id": {
+		"$oid": "5eb95485b912d815d87bab01"
+	},
+	"boat_name": "Laser",
+	"title": "Olympic Class",
+	"content": "My speciality. I offer coaching for the 4.7, Radial and Standard rigs for all levels and abilities. Small or large, I can help you reach goals with smart training and efficient coaching maximising your development on and off of the water.",
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.859Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.259Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5eb9508bb912d815d87baa72"
+	},
+	"background_position": "center"
+},
+{
+	"_id": {
+		"$oid": "5eb95485b912d815d87bab02"
+	},
+	"boat_name": "Waszp",
+	"title": "Flying Lessons",
+	"content": "This new class of boat opens up the thrill of foiling to a huge amount of different people. I am now the UK WASZP Class Chairman and a regular on the race circuit.",
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.860Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.262Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5eb933f5cab5710ce8a0addb"
+	},
+	"background_position": "center"
+},
+{
+	"_id": {
+		"$oid": "5eb95485b912d815d87bab03"
+	},
+	"boat_name": "RS Aero",
+	"title": "RS Aero",
+	"content": "I am the past RS Aero 7 National and World champion. Just like the Laser, I offer elite coaching to any Aero sailors who want to sharpen up to become faster and smarter sailors.",
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.860Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.261Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5eb95086b912d815d87baa62"
+	},
+	"background_position": "center"
+}]
+

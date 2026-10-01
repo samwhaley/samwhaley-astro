@@ -1,0 +1,96 @@
+[{
+	"_id": {
+		"$oid": "5eb95485b912d815d87bab0c"
+	},
+	"content": "Coaching a small group of sailors either from a RIB or from a boat itself. Ideal group size: 3-4 boats.",
+	"bold_text": "Group",
+	"title": "Group Lessons",
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.928Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.362Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "60d081adeda61c7916a418a0"
+	},
+	"background_position": "right"
+},
+{
+	"_id": {
+		"$oid": "5eb95485b912d815d87bab0d"
+	},
+	"title": "1-on-1 Coaching",
+	"bold_text": "1-on-1 ",
+	"content": "Ideal for focusing on your own goals with maximum coach attention to get those small gains.",
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.928Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.364Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5eb95087b912d815d87baa64"
+	},
+	"background_position": "bottom"
+},
+{
+	"_id": {
+		"$oid": "5eb95485b912d815d87bab0e"
+	},
+	"title": "Sailing Talks",
+	"bold_text": "Talks",
+	"content": "I am also available to come and give talks on a wide variety of topics, such as 'SAILING SMART' or 'SAILING FAST'.",
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.928Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.361Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5eb95080b912d815d87baa51"
+	},
+	"background_position": "right"
+},
+{
+	"_id": {
+		"$oid": "5ecd1a71b0e5b5047db6e14f"
+	},
+	"background_position": "center",
+	"bold_text": "COACHING",
+	"content": "I am a fully qualified race coach specialising in singlehanded sailing coaching. See what I can offer you.",
+	"title": "Coaching",
+	"createdAt": {
+		"$date": "2020-05-26T13:32:33.417Z"
+	},
+	"updatedAt": {
+		"$date": "2020-05-26T13:32:33.427Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5eb95087b912d815d87baa64"
+	}
+},
+{
+	"_id": {
+		"$oid": "5ecd1a71b0e5b5047db6e150"
+	},
+	"background_position": "top",
+	"bold_text": "SPONSORS",
+	"content": "I am lucky to be supported by an amazing group of sponsors. Want to learn more about them or become one? Click here.",
+	"title": "Sponsors",
+	"createdAt": {
+		"$date": "2020-05-26T13:32:33.417Z"
+	},
+	"updatedAt": {
+		"$date": "2020-05-26T13:32:33.428Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5ec8138bf0715a475087554f"
+	}
+}]
+

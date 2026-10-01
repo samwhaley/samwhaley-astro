@@ -1,0 +1,205 @@
+[{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa77"
+	},
+	"Banner": [
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541b6"
+			},
+			"kind": "ComponentGlobalBanner",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa78"
+			}
+		}
+	],
+	"Intro": [
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541b8"
+			},
+			"kind": "ComponentHomepageIntro",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa7b"
+			}
+		}
+	],
+	"Craft": [
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541cc"
+			},
+			"kind": "ComponentHomepageCraft",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa80"
+			}
+		}
+	],
+	"ambition": [
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541d3"
+			},
+			"kind": "ComponentHomepageAmbition",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baaa8"
+			}
+		}
+	],
+	"Achievements": [
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654242"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "6139209e1b2ccb6248652cf7"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654241"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "6712a63f1b2ccb62486541d4"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654240"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "64fa07ac1b2ccb6248653996"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865423f"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "6270e57d1b2ccb6248653001"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865423e"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "6103d3d7eda61c7916a419c4"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865423d"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5ed415b114820c0d31684323"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865423c"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baab6"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865423b"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baab7"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865423a"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baab8"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654239"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5ece714a18b45e330ee60aaf"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654238"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5ece714a18b45e330ee60ab0"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654237"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5ece714a18b45e330ee60ab1"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654236"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5ece714a18b45e330ee60ab2"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654235"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5ece714a18b45e330ee60ab3"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654234"
+			},
+			"kind": "ComponentHomepageAchievements",
+			"ref": {
+				"$oid": "5ece714a18b45e330ee60ab4"
+			}
+		}
+	],
+	"QA": [
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865424f"
+			},
+			"kind": "ComponentHomepageQaList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baad2"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.023Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.429Z"
+	},
+	"__v": 6
+}]
+

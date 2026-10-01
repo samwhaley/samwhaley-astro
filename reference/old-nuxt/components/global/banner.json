@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_global_banners",
+  "info": {
+    "name": "Banner",
+    "icon": "caret-square-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "background_position_v": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "top",
+        "bottom"
+      ],
+      "default": "center",
+      "required": true
+    },
+    "background_position_h": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left",
+        "right"
+      ],
+      "default": "center",
+      "required": true
+    }
+  }
+}

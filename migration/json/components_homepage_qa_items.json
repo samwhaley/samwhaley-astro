@@ -1,0 +1,169 @@
+[{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baad3"
+	},
+	"question": "What has sailing taught you?",
+	"answer": "Sailing teaches you so many life skills which you can use on and off of the water. How to think under pressure, how hard work pays off, good time management skills, budgeting, risk taking, leadership as well as much more.",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.417Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.357Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baad4"
+	},
+	"question": "What do you love most about sailing?",
+	"answer": "It’s an awesome way to keep mentally and physically fit and the connection between you, the boat and the environment is awe-inspiring.",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.417Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.359Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6db"
+	},
+	"question": "Who inspired you to start sailing?",
+	"answer": "My dad sailed round the world which definitely inspired me to learn how to sail.",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.321Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.354Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6dc"
+	},
+	"question": "What was your first boat?",
+	"answer": "My brother and I shared a Laser Pico which we used to sail around in thinking we were incredibly cool.",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.321Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.361Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6dd"
+	},
+	"question": "Who is the most famous person you've met and where?",
+	"answer": "When I was younger, Ben Ainslie once ran over my sandcastle as he sailed his Hobie cat up the beach whilst on holiday in the Caribbean.",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.321Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.363Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece6d6b18b45e330ee60a7e"
+	},
+	"answer": "Ben Ainslie.",
+	"question": "Childhood hero?",
+	"createdAt": {
+		"$date": "2020-05-27T13:38:51.900Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.357Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece6d6b18b45e330ee60a7f"
+	},
+	"answer": "The short term pain creates a long term gain. ",
+	"question": "What keeps you going when you're on the limit?",
+	"createdAt": {
+		"$date": "2020-05-27T13:38:51.900Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.362Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece6d6b18b45e330ee60a80"
+	},
+	"answer": "I would have to say my hometown, Swanage. I’ve sailed there for a long time now but always puts a big smile on my face.",
+	"question": "Favourite sailing location?",
+	"createdAt": {
+		"$date": "2020-05-27T13:38:51.900Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.364Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece6d6b18b45e330ee60a81"
+	},
+	"answer": "Fighter pilot/computer programmer/graphics designer/marketing/sales/gamer. I have a lot of interests!",
+	"question": "If you weren't a sailor, what would you be?    ",
+	"createdAt": {
+		"$date": "2020-05-27T13:38:51.900Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.360Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece6d6b18b45e330ee60a82"
+	},
+	"answer": "Fitness, windsurfing, surfing, exploring, travelling, computer programming, design, stock trading.",
+	"question": "Interests away from sailing:",
+	"createdAt": {
+		"$date": "2020-05-27T13:38:51.900Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.356Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece6d6b18b45e330ee60a83"
+	},
+	"answer": "I designed and built my own boat at the age of 16. I also started working at Microsoft aged just 18 before turning to professional sailing. Quite a unconventional journey.",
+	"question": "Interesting fact:",
+	"createdAt": {
+		"$date": "2020-05-27T13:38:51.900Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.358Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece6d6b18b45e330ee60a84"
+	},
+	"answer": "Never give up no matter how many setbacks you suffer. Train smart, remain focussed and keep that end goal in mind.",
+	"question": "Best advice:",
+	"createdAt": {
+		"$date": "2020-05-27T13:38:51.900Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.363Z"
+	},
+	"__v": 0
+}]
+

@@ -1,0 +1,217 @@
+[{
+	"_id": {
+		"$oid": "5ecd16a7b0e5b5047db6e13d"
+	},
+	"link": "https://www.goldenbuoy.com/",
+	"title": "Golden Buoy Clothing",
+	"createdAt": {
+		"$date": "2020-05-26T13:16:23.582Z"
+	},
+	"updatedAt": {
+		"$date": "2020-06-02T10:37:15.477Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5eb95081b912d815d87baa54"
+	}
+},
+{
+	"_id": {
+		"$oid": "5ed173e114820c0d31683c84"
+	},
+	"link": "https://samwhaley.com/contact",
+	"title": "Contact Sam",
+	"createdAt": {
+		"$date": "2020-05-29T20:43:13.370Z"
+	},
+	"updatedAt": {
+		"$date": "2020-06-02T10:40:34.410Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ed25b6614820c0d31683fad"
+	},
+	"link": "https://www.facebook.com/samwhaleysailing/videos/1927502327383297/",
+	"title": "SWS Return To Sailing Video",
+	"createdAt": {
+		"$date": "2020-05-30T13:11:02.214Z"
+	},
+	"updatedAt": {
+		"$date": "2020-06-01T17:56:16.419Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ed2e10714820c0d3168403e"
+	},
+	"link": "https://www.instagram.com/p/BygQOZKARLV/?utm_source=ig_web_copy_link",
+	"title": "San Francisco Extreme Tides",
+	"createdAt": {
+		"$date": "2020-05-30T22:41:11.003Z"
+	},
+	"updatedAt": {
+		"$date": "2020-05-30T22:45:23.516Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ed390ef14820c0d3168415a"
+	},
+	"link": "www.darwinescapes.co.uk",
+	"createdAt": {
+		"$date": "2020-05-31T11:11:43.289Z"
+	},
+	"updatedAt": {
+		"$date": "2020-05-31T13:15:06.573Z"
+	},
+	"__v": 0,
+	"title": "Darwin Escapes"
+},
+{
+	"_id": {
+		"$oid": "5ed3a37914820c0d31684192"
+	},
+	"link": "https://www.sailingchandlery.com/",
+	"createdAt": {
+		"$date": "2020-05-31T12:30:49.531Z"
+	},
+	"updatedAt": {
+		"$date": "2020-05-31T12:31:08.272Z"
+	},
+	"__v": 0,
+	"title": "Sailing Chandlery"
+},
+{
+	"_id": {
+		"$oid": "5ed40a9d14820c0d316841d3"
+	},
+	"link": "www.sailingchandlery.com",
+	"title": "Sailing Chandlery",
+	"createdAt": {
+		"$date": "2020-05-31T19:50:53.769Z"
+	},
+	"updatedAt": {
+		"$date": "2021-05-24T18:54:13.664Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ed8b33014820c0d31684562"
+	},
+	"title": "B\u0026G Livesteam",
+	"link": "https://www.facebook.com/samwhaleysailing/posts/2801141019998323",
+	"createdAt": {
+		"$date": "2020-06-04T08:39:12.620Z"
+	},
+	"updatedAt": {
+		"$date": "2020-06-04T08:52:14.165Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ee216c214820c0d316845b9"
+	},
+	"link": "https://www.waszp.org.uk/",
+	"title": "Waszp UK",
+	"createdAt": {
+		"$date": "2020-06-11T11:34:26.367Z"
+	},
+	"updatedAt": {
+		"$date": "2020-06-15T09:12:56.850Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ef1ebfa14820c0d316847b6"
+	},
+	"link": "https://www.goldenbuoy.com/",
+	"title": "Golden Buoy",
+	"createdAt": {
+		"$date": "2020-06-23T11:48:10.368Z"
+	},
+	"updatedAt": {
+		"$date": "2020-06-23T12:00:28.879Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "60d07dbaeda61c7916a4189c"
+	},
+	"link": "https://sailmon.com/max/?utm_source=google\u0026utm_medium=cpc\u0026utm_campaign=\u0026utm_content=\u0026utm_term=\u0026hsa_acc=4436653231\u0026hsa_cam=11311464642\u0026hsa_grp=125994869710\u0026hsa_ad=520670749679\u0026hsa_src=g\u0026hsa_tgt=dsa-1259979701951\u0026hsa_kw=\u0026hsa_mt=b\u0026hsa_net=adwords\u0026hsa_ver=3\u0026gclid=CjwKCAjw8cCGBhB6EiwAgOReyxCngpPz_qYDun2EJGbfn5dc4hoeyfy2kcZhfeNgwS2O1AWY941yxBoCzLcQAvD_BwE",
+	"title": "SAILMON Website",
+	"createdAt": {
+		"$date": "2021-06-21T11:53:30.046Z"
+	},
+	"updatedAt": {
+		"$date": "2021-06-21T12:37:00.592Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "610403a9eda61c7916a41a0d"
+	},
+	"link": "https://www.generationgraphics.co.uk/",
+	"title": "Generation Graphics",
+	"createdAt": {
+		"$date": "2021-07-30T13:50:33.557Z"
+	},
+	"updatedAt": {
+		"$date": "2021-09-08T19:48:11.651Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "6103cdeeeda61c7916a418bb"
+	}
+},
+{
+	"_id": {
+		"$oid": "61391c2f1b2ccb6248652b58"
+	},
+	"link": "https://www.yachtsandyachting.com/news/240711/UKLA-ILCA-7-National-Championships-update",
+	"title": "Link to Yachts and Yachting Report",
+	"createdAt": {
+		"$date": "2021-09-08T20:25:19.662Z"
+	},
+	"updatedAt": {
+		"$date": "2021-09-08T20:53:26.741Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6155ecce1b2ccb6248652df0"
+	},
+	"link": "https://sailingfast.co.uk/",
+	"title": "SailingFast Website",
+	"createdAt": {
+		"$date": "2021-09-30T16:58:54.685Z"
+	},
+	"updatedAt": {
+		"$date": "2021-11-15T16:33:15.492Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "627e92541b2ccb624865306a"
+	},
+	"link": "https://2022ilca7men.ilca-worlds.org/",
+	"title": "ILCA 7 Worlds 2022 Website",
+	"createdAt": {
+		"$date": "2022-05-13T17:16:04.943Z"
+	},
+	"updatedAt": {
+		"$date": "2022-05-31T12:16:39.486Z"
+	},
+	"__v": 0
+}]
+

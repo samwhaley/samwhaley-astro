@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_homepage_coaching_boat_items",
+  "info": {
+    "name": "coaching_boat_item",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "boat_name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text"
+    },
+    "background_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "top",
+        "bottom",
+        "center"
+      ],
+      "default": "center",
+      "required": true
+    }
+  }
+}

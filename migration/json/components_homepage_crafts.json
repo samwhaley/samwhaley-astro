@@ -1,0 +1,198 @@
+[{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa80"
+	},
+	"intro": "Sam sails the ILCA dinghy (formerly known as the Laser), the Men’s Olympic singlehanded dinghy. It is an extremely competitive and tactical boat to sail, challenging both mentally and physically. The boat is a one design class, meaning that every boat is the same and therefore the best sailor is the one who wins. In most conditions the boat requires power, endurance and strength to achieve the maximum speed possible, hence why the best ILCA sailors are some of the strongest and fittest athletes at the Games.\n\nSam has experience in a lot of other classes and has been a large part of the WASZP class, being UK class chariman for the past four years. Check out the statistics for these two very different boats below.",
+	"outro": "",
+	"laser_info": [
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c1"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa81"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c0"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa82"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541bf"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa83"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541be"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa84"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541bd"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa85"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541bc"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa86"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541bb"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa87"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541ba"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa88"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541b9"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa89"
+			}
+		}
+	],
+	"waszp_info": [
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541ca"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa93"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c9"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa94"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c8"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa95"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c7"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa96"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c6"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5ed37db814820c0d316840c4"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c5"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa97"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c4"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa98"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c3"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa9a"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541c2"
+			},
+			"kind": "ComponentGlobalList",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baa9b"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.069Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.484Z"
+	},
+	"__v": 2,
+	"laser_image": {
+		"$oid": "5eb95083b912d815d87baa59"
+	},
+	"waszp_image": {
+		"$oid": "5ece75e818b45e330ee60af6"
+	},
+	"Button": [
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541cb"
+			},
+			"kind": "ComponentGlobalButton",
+			"ref": {
+				"$oid": "5ecf90e0d1bd4954f4584f18"
+			}
+		}
+	]
+}]
+

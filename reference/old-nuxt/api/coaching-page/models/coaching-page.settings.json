@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "coaching_pages",
+  "info": {
+    "name": "CoachingPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.banner"
+    },
+    "intro_title": {
+      "type": "string"
+    },
+    "intro_content": {
+      "type": "richtext"
+    },
+    "Coaching_Boats": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.coaching-boat-list",
+      "required": true
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.services"
+    }
+  }
+}

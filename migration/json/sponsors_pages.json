@@ -1,0 +1,59 @@
+[{
+	"_id": {
+		"$oid": "5eb95345b912d815d87baadc"
+	},
+	"introduction_content": "Sponsors are an integral part of an Olympic campaign and I work with my partners closely to ensure that together we create valuable and meaningful content for us both to use. I am lucky enough to work with some talented companies and with the help of these I have managed to complete some pretty cool projects such as designing and building a carbon fibre compass mount for my ILCA, custom designing clothing products, wrapping my foiling Waszp dinghy with a unique colour and much more. \n\nI have multiple ROI solutions for every company, so if you have something cool to offer feel free to get in touch and I would love to discuss what we can do.\n",
+	"introduction_title": "Sponsors",
+	"Banner": [
+		{
+			"_id": {
+				"$oid": "640c73101b2ccb62486538cb"
+			},
+			"kind": "ComponentGlobalBanner",
+			"ref": {
+				"$oid": "5eb95345b912d815d87baadd"
+			}
+		}
+	],
+	"DonateComponent": [
+		{
+			"_id": {
+				"$oid": "640c73101b2ccb62486538cd"
+			},
+			"kind": "ComponentHomepageIntro",
+			"ref": {
+				"$oid": "5eb95345b912d815d87baae0"
+			}
+		}
+	],
+	"MainSponsors": [
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538d2"
+			},
+			"kind": "ComponentHomepageSponsorList",
+			"ref": {
+				"$oid": "5eb95345b912d815d87baae3"
+			}
+		}
+	],
+	"SecondarySponsors": [
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538d9"
+			},
+			"kind": "ComponentHomepageSponsorList",
+			"ref": {
+				"$oid": "5eb95345b912d815d87baaee"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:29:41.013Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:49.167Z"
+	},
+	"__v": 4
+}]
+

@@ -1,0 +1,25 @@
+[{
+	"_id": {
+		"$oid": "5eb954b2b912d815d87bab16"
+	},
+	"intro": "Feel free to use the form below to get in contact. ",
+	"Banner": [
+		{
+			"_id": {
+				"$oid": "617139491b2ccb6248652e90"
+			},
+			"kind": "ComponentGlobalBanner",
+			"ref": {
+				"$oid": "5eb954b2b912d815d87bab17"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:35:46.261Z"
+	},
+	"updatedAt": {
+		"$date": "2021-10-21T09:56:25.513Z"
+	},
+	"__v": 1
+}]
+

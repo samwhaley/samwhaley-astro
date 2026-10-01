@@ -1,0 +1,74 @@
+[{
+	"_id": {
+		"$oid": "5eb95485b912d815d87bab0b"
+	},
+	"service": [
+		{
+			"_id": {
+				"$oid": "64fa083b1b2ccb6248653a09"
+			},
+			"kind": "ComponentHomepageServiceItem",
+			"ref": {
+				"$oid": "5eb95485b912d815d87bab0c"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "64fa083b1b2ccb6248653a08"
+			},
+			"kind": "ComponentHomepageServiceItem",
+			"ref": {
+				"$oid": "5eb95485b912d815d87bab0d"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "64fa083b1b2ccb6248653a07"
+			},
+			"kind": "ComponentHomepageServiceItem",
+			"ref": {
+				"$oid": "5eb95485b912d815d87bab0e"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.924Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.383Z"
+	},
+	"__v": 1
+},
+{
+	"_id": {
+		"$oid": "5ecd1a71b0e5b5047db6e14e"
+	},
+	"service": [
+		{
+			"_id": {
+				"$oid": "5ecd1a71b0e5b5047db6e154"
+			},
+			"kind": "ComponentHomepageServiceItem",
+			"ref": {
+				"$oid": "5ecd1a71b0e5b5047db6e14f"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "5ecd1a71b0e5b5047db6e153"
+			},
+			"kind": "ComponentHomepageServiceItem",
+			"ref": {
+				"$oid": "5ecd1a71b0e5b5047db6e150"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-26T13:32:33.414Z"
+	},
+	"updatedAt": {
+		"$date": "2020-05-26T13:32:33.437Z"
+	},
+	"__v": 1
+}]
+

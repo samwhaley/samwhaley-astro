@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_ambition_bars",
+  "info": {
+    "name": "ambition bar",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "percentage": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

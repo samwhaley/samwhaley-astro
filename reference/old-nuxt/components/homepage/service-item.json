@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_homepage_service_items",
+  "info": {
+    "name": "service_item",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "bold_text": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "background_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "top",
+        "bottom",
+        "center"
+      ]
+    }
+  }
+}

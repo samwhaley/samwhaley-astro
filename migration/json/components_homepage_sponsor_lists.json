@@ -1,0 +1,101 @@
+[{
+	"_id": {
+		"$oid": "5eb95345b912d815d87baae3"
+	},
+	"sponsor_item": [
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538d1"
+			},
+			"kind": "ComponentHomepageSponsorMain",
+			"ref": {
+				"$oid": "5eb95345b912d815d87baae4"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538d0"
+			},
+			"kind": "ComponentHomepageSponsorMain",
+			"ref": {
+				"$oid": "5eb95345b912d815d87baae5"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538cf"
+			},
+			"kind": "ComponentHomepageSponsorMain",
+			"ref": {
+				"$oid": "6162a51a1b2ccb6248652e43"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538ce"
+			},
+			"kind": "ComponentHomepageSponsorMain",
+			"ref": {
+				"$oid": "640c72671b2ccb62486538ab"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:29:41.051Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:49.011Z"
+	},
+	"__v": 1
+},
+{
+	"_id": {
+		"$oid": "5eb95345b912d815d87baaee"
+	},
+	"sponsor_item": [
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538d8"
+			},
+			"kind": "ComponentHomepageSponsorMain",
+			"ref": {
+				"$oid": "640c73111b2ccb62486538d3"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538d7"
+			},
+			"kind": "ComponentHomepageSponsorMain",
+			"ref": {
+				"$oid": "5eb95345b912d815d87baaf0"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538d6"
+			},
+			"kind": "ComponentHomepageSponsorMain",
+			"ref": {
+				"$oid": "6103cf02eda61c7916a418d6"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "640c73111b2ccb62486538d5"
+			},
+			"kind": "ComponentHomepageSponsorMain",
+			"ref": {
+				"$oid": "640c72681b2ccb62486538b6"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:29:41.119Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:49.132Z"
+	},
+	"__v": 1
+}]
+

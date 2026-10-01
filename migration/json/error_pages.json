@@ -1,0 +1,24 @@
+[{
+	"_id": {
+		"$oid": "5ece44cc5fc4313269fcf681"
+	},
+	"Banner": [
+		{
+			"_id": {
+				"$oid": "5ece45485fc4313269fcf685"
+			},
+			"kind": "ComponentGlobalBanner",
+			"ref": {
+				"$oid": "5ece44cc5fc4313269fcf682"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-27T10:45:32.525Z"
+	},
+	"updatedAt": {
+		"$date": "2020-05-27T10:47:36.584Z"
+	},
+	"__v": 1
+}]
+

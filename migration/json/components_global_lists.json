@@ -1,0 +1,235 @@
+[{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa81"
+	},
+	"listItem": "OVER 220,000 SOLD AROUND THE WORLD",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.076Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.394Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa82"
+	},
+	"listItem": "SAIL AREA OF 7 METRES SQUARED",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.076Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.397Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa83"
+	},
+	"listItem": "OPTIMUM SAILOR WEIGHT: 80-84KG",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.076Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.399Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa84"
+	},
+	"listItem": "NUMBER OF CREW: 1",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.076Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.396Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa85"
+	},
+	"listItem": "GRP CONSTRUCTION",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.076Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.392Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa86"
+	},
+	"listItem": "ONE DESIGN CLASS",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.076Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.395Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa87"
+	},
+	"listItem": "RIGGED WEIGHT OF 76 KG",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.076Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.400Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa88"
+	},
+	"listItem": "TOP SPEED: 20 MPH",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.076Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.396Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa89"
+	},
+	"listItem": "PRICE: £6000+",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.076Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.398Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa93"
+	},
+	"listItem": "SAIL AREA OF 8.2 METRES SQUARED",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.140Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.430Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa94"
+	},
+	"listItem": "RIGGED WEIGHT OF 48KG",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.140Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.432Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa95"
+	},
+	"listItem": "OPTIMUM SAILOR WEIGHT: 74-80KG",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.140Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.433Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa96"
+	},
+	"listItem": "UNDERWATER FOILS ALLOW THE BOAT TO 'FLY'",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.140Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.435Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa97"
+	},
+	"listItem": "CARBON FIBRE EPOXY HONEYCOMB CONSTRUCTION",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.140Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.431Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa98"
+	},
+	"listItem": "ONE DESIGN CLASS",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.140Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.434Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa9a"
+	},
+	"listItem": "TOP SPEED: 30 MPH",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.140Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.432Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa9b"
+	},
+	"listItem": "PRICE: £12,000",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.140Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.436Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ed37db814820c0d316840c4"
+	},
+	"listItem": "NUMBER OF CREW: 1",
+	"createdAt": {
+		"$date": "2020-05-31T09:49:44.097Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.429Z"
+	},
+	"__v": 0
+}]
+

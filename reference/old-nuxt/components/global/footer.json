@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "name": "footer",
+    "icon": "window-minimize"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "sub_heading": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

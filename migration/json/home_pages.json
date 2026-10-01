@@ -1,0 +1,67 @@
+[{
+	"_id": {
+		"$oid": "5eb93429cab5710ce8a0addd"
+	},
+	"name": "home",
+	"Banner": [
+		{
+			"_id": {
+				"$oid": "6712a13a1b2ccb6248653a9f"
+			},
+			"kind": "ComponentGlobalBanner",
+			"ref": {
+				"$oid": "5eb93429cab5710ce8a0adde"
+			}
+		}
+	],
+	"Intro": [
+		{
+			"_id": {
+				"$oid": "6712a13a1b2ccb6248653aa1"
+			},
+			"kind": "ComponentHomepageIntro",
+			"ref": {
+				"$oid": "5eb93429cab5710ce8a0ade1"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T11:16:57.368Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T17:56:10.795Z"
+	},
+	"__v": 2,
+	"Services": [
+		{
+			"_id": {
+				"$oid": "5ecd1a71b0e5b5047db6e155"
+			},
+			"kind": "ComponentHomepageServices",
+			"ref": {
+				"$oid": "5ecd1a71b0e5b5047db6e14e"
+			}
+		}
+	],
+	"PageLinks": [
+		{
+			"_id": {
+				"$oid": "6712a13a1b2ccb6248653aa5"
+			},
+			"kind": "ComponentHomepageIntro",
+			"ref": {
+				"$oid": "5ecf861b4b37245477e50890"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a13a1b2ccb6248653aa4"
+			},
+			"kind": "ComponentHomepageIntro",
+			"ref": {
+				"$oid": "5ecf861b4b37245477e50891"
+			}
+		}
+	]
+}]
+

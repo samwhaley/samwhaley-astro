@@ -1,0 +1,100 @@
+[{
+	"_id": {
+		"$oid": "5eb955c0b912d815d87bab1a"
+	},
+	"order": 0,
+	"createdAt": {
+		"$date": "2020-05-11T13:40:16.837Z"
+	},
+	"updatedAt": {
+		"$date": "2020-05-26T14:21:51.891Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "5eb95085b912d815d87baa5e"
+	},
+	"url": "https://britishsailingteam.rya.org.uk/"
+},
+{
+	"_id": {
+		"$oid": "5ed8b69c14820c0d3168456b"
+	},
+	"createdAt": {
+		"$date": "2020-06-04T08:53:48.159Z"
+	},
+	"updatedAt": {
+		"$date": "2022-09-27T10:45:15.897Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "5ed8b69914820c0d3168456a"
+	},
+	"order": 6
+},
+{
+	"_id": {
+		"$oid": "5f50a9868140c66b71c206e9"
+	},
+	"createdAt": {
+		"$date": "2020-09-03T08:29:58.961Z"
+	},
+	"updatedAt": {
+		"$date": "2025-09-17T15:46:22.697Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "5f50a97f8140c66b71c206e8"
+	},
+	"order": 5,
+	"url": "https://www.ovingtonboats.com/"
+},
+{
+	"_id": {
+		"$oid": "6162a9b41b2ccb6248652e7d"
+	},
+	"createdAt": {
+		"$date": "2021-10-10T08:52:04.355Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T11:59:05.015Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "6155eb1f1b2ccb6248652deb"
+	},
+	"order": 1
+},
+{
+	"_id": {
+		"$oid": "640c6cd61b2ccb624865384d"
+	},
+	"url": "https://www.noblemarine.co.uk/",
+	"order": 3,
+	"createdAt": {
+		"$date": "2023-03-11T11:58:14.706Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T11:59:15.363Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "640c6cb91b2ccb624865384c"
+	}
+},
+{
+	"_id": {
+		"$oid": "68cad7c8939f394e2eb144f0"
+	},
+	"order": 4,
+	"createdAt": {
+		"$date": "2025-09-17T15:46:16.412Z"
+	},
+	"updatedAt": {
+		"$date": "2025-09-17T15:46:16.426Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "5ec850def0715a475087558e"
+	}
+}]
+

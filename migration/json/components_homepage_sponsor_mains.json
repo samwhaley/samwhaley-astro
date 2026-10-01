@@ -1,0 +1,163 @@
+[{
+	"_id": {
+		"$oid": "5eb95345b912d815d87baae4"
+	},
+	"content": "The British Sailing Team is the most successful national Olympic sailing team of all time. British Sailing Team athletes compete in all ten Olympic classes, flying the flag for Great Britain at regattas all over the world.  \n\n",
+	"title": "British Sailing Team",
+	"link": "https://britishsailingteam.rya.org.uk/",
+	"createdAt": {
+		"$date": "2020-05-11T13:29:41.055Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:48.944Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "5eb95085b912d815d87baa5e"
+	}
+},
+{
+	"_id": {
+		"$oid": "5eb95345b912d815d87baae5"
+	},
+	"title": "Actisense",
+	"content": "Actisense are dedicated to supplying intelligent sensors and interfaces that are unrivalled for their quality, features \u0026 reliability.  \nA headline sponsor since 2018, Actisense have been by my side throughout.",
+	"link": "https://www.actisense.com/",
+	"createdAt": {
+		"$date": "2020-05-11T13:29:41.055Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:48.942Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "5eb95080b912d815d87baa4f"
+	}
+},
+{
+	"_id": {
+		"$oid": "5eb95345b912d815d87baaf0"
+	},
+	"content": "Joe has been instrumental in my sailing performance over the years, working to develop my strength and fitness over a number of years to enable me to perform at my best.",
+	"title": "Joes Gym",
+	"link": "https://www.joesgymswanage.co.uk/",
+	"createdAt": {
+		"$date": "2020-05-11T13:29:41.123Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:49.095Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "5ed8b69914820c0d3168456a"
+	}
+},
+{
+	"_id": {
+		"$oid": "6103cf02eda61c7916a418d6"
+	},
+	"title": "Generation Graphics",
+	"content": "Generation Graphics are a dedicated marine wrapping, graphics \u0026 branding company. Based in Southampton in the heart of British boating, they are at the forefront of delivering both aesthetic transformations and sharing brand identities.",
+	"link": "https://www.generationgraphics.co.uk/",
+	"createdAt": {
+		"$date": "2021-07-30T10:05:54.603Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:49.099Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "6103cdeeeda61c7916a418bb"
+	}
+},
+{
+	"_id": {
+		"$oid": "6162a4851b2ccb6248652e2b"
+	},
+	"title": "SailingFast",
+	"content": "Sailingfast is dedicated to supplying your dinghy spares. They want to make it easy for you to get the best equipment on the market as quickly as possible so you can concentrate on sailing fast!",
+	"link": "https://sailingfast.co.uk/",
+	"createdAt": {
+		"$date": "2021-10-10T08:29:57.841Z"
+	},
+	"updatedAt": {
+		"$date": "2021-10-10T08:29:57.864Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "6155eb1f1b2ccb6248652deb"
+	}
+},
+{
+	"_id": {
+		"$oid": "6162a51a1b2ccb6248652e43"
+	},
+	"title": "SailingFast",
+	"content": "Sailingfast is dedicated to supplying your dinghy spares. They want to make it easy for you to get the best equipment on the market as quickly as possible so you can concentrate on sailing fast!",
+	"link": "https://sailingfast.co.uk/",
+	"createdAt": {
+		"$date": "2021-10-10T08:32:26.372Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:48.946Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "6155eb1f1b2ccb6248652deb"
+	}
+},
+{
+	"_id": {
+		"$oid": "640c72671b2ccb62486538ab"
+	},
+	"title": "Noble Marine",
+	"content": "Noble Marine Insurance are a specialist boat insurance provider with over 30 years experience in insuring everything from surfboards to £1m racing yachts.",
+	"link": "https://www.noblemarine.co.uk/",
+	"createdAt": {
+		"$date": "2023-03-11T12:21:59.935Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:48.948Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "640c6e4e1b2ccb624865386e"
+	}
+},
+{
+	"_id": {
+		"$oid": "640c72681b2ccb62486538b6"
+	},
+	"title": "Golden Buoy",
+	"content": "Ethically created on a carbon neutral production line, Golden Buoy uses organic cotton to produce casual clothing for fans of all water sports. ",
+	"link": "https://www.goldenbuoy.com/",
+	"createdAt": {
+		"$date": "2023-03-11T12:22:00.081Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:49.097Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "6103cfd4eda61c7916a418de"
+	}
+},
+{
+	"_id": {
+		"$oid": "640c73111b2ccb62486538d3"
+	},
+	"title": "Ovington Boats",
+	"content": "Ovington Boats are one of the worlds most successful small boat building businesses specialising in the high performance dinghy market. They have an enviable reputation for quality and service across a wide range of products.",
+	"link": "https://ovingtonboats.com/",
+	"createdAt": {
+		"$date": "2023-03-11T12:24:49.061Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:49.083Z"
+	},
+	"__v": 0,
+	"logo": {
+		"$oid": "5f50a97f8140c66b71c206e8"
+	}
+}]
+

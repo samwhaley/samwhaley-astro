@@ -1,0 +1,85 @@
+[{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baaa9"
+	},
+	"title": "Olympics",
+	"percentage": 7,
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.245Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.526Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baaaa"
+	},
+	"title": "British Sailing Team",
+	"percentage": 30,
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.246Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.528Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baaab"
+	},
+	"title": "Youth National Squad",
+	"percentage": 100,
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.246Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.525Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baaac"
+	},
+	"title": "Junior National Squad",
+	"percentage": 100,
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.246Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.529Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baaad"
+	},
+	"title": "Zone Regional Squad",
+	"percentage": 100,
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.246Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.530Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baaae"
+	},
+	"title": "General Sailors",
+	"percentage": 100,
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.246Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.527Z"
+	},
+	"__v": 0
+}]
+

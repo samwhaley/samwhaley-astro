@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "intro": {
+      "type": "richtext"
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.banner"
+    }
+  }
+}

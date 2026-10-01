@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_items",
+  "info": {
+    "name": "BlogItem"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "preview_text": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail_position": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left",
+        "right"
+      ],
+      "default": "center",
+      "required": true
+    },
+    "rich_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "published_at": {
+      "type": "date",
+      "required": true
+    },
+    "published": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.external-button"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "rich_text_2": {
+      "type": "richtext"
+    },
+    "photo_grid": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "photo_grid_2": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "youtube_2": {
+      "type": "string"
+    },
+    "rich_text_3": {
+      "type": "richtext"
+    },
+    "likes": {
+      "type": "decimal",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,1149 @@
+[{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baab9"
+	},
+	"position": "1st",
+	"competition": "Laser National Champion",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.308Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.910Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baaba"
+	},
+	"position": "39th",
+	"competition": "Laser Europeans",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.308Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.752Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baabb"
+	},
+	"position": "4th",
+	"competition": "Waszp Nationals",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.308Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.742Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baabc"
+	},
+	"position": "4th",
+	"competition": "Endeavour Championship",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.308Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.831Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baabd"
+	},
+	"position": "1st",
+	"competition": "Laser Nationals",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.313Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.733Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baabe"
+	},
+	"position": "1st",
+	"competition": "Laser Inlands",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.313Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.748Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baabf"
+	},
+	"position": "34th",
+	"competition": "Laser Europeans",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.313Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.738Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baac0"
+	},
+	"position": "5th",
+	"competition": "Laser U-21 World Championships",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.326Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.750Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baac1"
+	},
+	"competition": "Laser U-21 European Championships",
+	"position": "4th",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.326Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.740Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baac2"
+	},
+	"competition": "Laser Inland Championship",
+	"position": "1st",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.326Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.821Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baac3"
+	},
+	"competition": "RS Aero Nationals",
+	"position": "1st",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.326Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.876Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6b7"
+	},
+	"competition": "Kiel Week",
+	"position": "8th",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.122Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.902Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6b8"
+	},
+	"competition": "RYA Youth Nationals",
+	"position": "3rd",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.736Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6b9"
+	},
+	"competition": "Palamos Christmas Race",
+	"position": "5th",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.751Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6ba"
+	},
+	"competition": "Kiel Week",
+	"position": "12th",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.741Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6bb"
+	},
+	"competition": "Delta Lloyd Regatta",
+	"position": "33rd",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.824Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6bc"
+	},
+	"competition": "Trofeo S.A.R. Princesa Sofía Regatta, Palma",
+	"position": "40th",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.888Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6bd"
+	},
+	"competition": "RS Aero 7 Worlds",
+	"position": "1st",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.810Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6be"
+	},
+	"position": "1st",
+	"competition": "RS Aero 7 Nationals",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.731Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6bf"
+	},
+	"competition": "RS 200 Nationals",
+	"position": "10th",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.734Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6c0"
+	},
+	"competition": "Medemblik Regatta Holland",
+	"position": "13th",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.749Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ebea699072cb52765c9e6c1"
+	},
+	"competition": "Kiel Week",
+	"position": "19th",
+	"createdAt": {
+		"$date": "2020-05-15T14:26:33.133Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.739Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece6d6b18b45e330ee60a63"
+	},
+	"position": "39th",
+	"competition": "Trofeo S.A.R. Princesa Sofía Regatta, Palma",
+	"createdAt": {
+		"$date": "2020-05-27T13:38:51.713Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.911Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60ab5"
+	},
+	"competition": "Selected for the British Sailing Team",
+	"position": " ",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.706Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.931Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60ab6"
+	},
+	"competition": "Under 21 European Championships",
+	"position": "8th",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.706Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.944Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60ab7"
+	},
+	"competition": "Under 21 World Championships",
+	"position": "30th",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.706Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.938Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60ab8"
+	},
+	"competition": "RYA Youth Nationals",
+	"position": "2nd",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.706Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.864Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60ab9"
+	},
+	"position": "3rd",
+	"competition": "UK Laser Nationals",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.711Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.908Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60aba"
+	},
+	"competition": "Competed for the first time at a national event.",
+	"position": " ",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.713Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.936Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60abb"
+	},
+	"competition": "UK Laser Radial Nationals",
+	"position": "14th",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.716Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.869Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60abc"
+	},
+	"position": "5th",
+	"competition": "UK Laser Radial Inlands",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.716Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.735Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60abd"
+	},
+	"competition": "Under-19 at Laser U21 Worlds 2015",
+	"position": "8th",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.720Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.730Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ece714a18b45e330ee60abe"
+	},
+	"competition": "Selected for his first ever national squad.",
+	"position": " ",
+	"createdAt": {
+		"$date": "2020-05-27T13:55:22.720Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.747Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ed415b114820c0d31684324"
+	},
+	"position": "64th",
+	"competition": "Laser World Championships",
+	"createdAt": {
+		"$date": "2020-05-31T20:38:09.032Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.755Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ed415b114820c0d31684325"
+	},
+	"position": "3rd",
+	"competition": "British Sailing Team eSailing Nationals",
+	"createdAt": {
+		"$date": "2020-05-31T20:38:09.033Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.935Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ed415b114820c0d31684326"
+	},
+	"position": "1st",
+	"competition": "UK Waszp eSailing Nationals ",
+	"createdAt": {
+		"$date": "2020-05-31T20:38:09.033Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.906Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5ed79bf114820c0d3168451e"
+	},
+	"position": "1st",
+	"competition": "UK Laser eSailing Nationals",
+	"createdAt": {
+		"$date": "2020-06-03T12:47:45.982Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.847Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eef70dd14820c0d31684768"
+	},
+	"position": "3rd",
+	"competition": "RYA Class eSailing Championships",
+	"createdAt": {
+		"$date": "2020-06-21T14:38:21.186Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.923Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5eef70dd14820c0d31684769"
+	},
+	"position": "1st",
+	"competition": "eSailing The Splashes - England vs Australia",
+	"createdAt": {
+		"$date": "2020-06-21T14:38:21.186Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.756Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5f915467eda61c7916a417a4"
+	},
+	"position": "24th",
+	"competition": "Laser European Championships",
+	"createdAt": {
+		"$date": "2020-10-22T09:44:07.654Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.934Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5f915467eda61c7916a417a5"
+	},
+	"position": "3rd",
+	"competition": "Laser Nationals",
+	"createdAt": {
+		"$date": "2020-10-22T09:44:07.654Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.905Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5f915467eda61c7916a417a6"
+	},
+	"position": "12th",
+	"competition": "Kiel Week",
+	"createdAt": {
+		"$date": "2020-10-22T09:44:07.654Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.921Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6103d3d7eda61c7916a419c5"
+	},
+	"position": "1st",
+	"competition": "WASZP UK Nationals",
+	"createdAt": {
+		"$date": "2021-07-30T10:26:31.630Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.943Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6103d3d7eda61c7916a419c6"
+	},
+	"position": "8th",
+	"competition": "Vilamoura Coaches Regatta R2",
+	"createdAt": {
+		"$date": "2021-07-30T10:26:31.630Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.937Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6103d3d7eda61c7916a419c7"
+	},
+	"position": "45th",
+	"competition": "Vilamoura Olympic Intercontinental Qualifier",
+	"createdAt": {
+		"$date": "2021-07-30T10:26:31.630Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.856Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652cf8"
+	},
+	"position": "1st",
+	"competition": "WASZP UK Nationals 2021",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.043Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652cf9"
+	},
+	"position": "2nd",
+	"competition": "WASZP Worlds 2022",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.042Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652cfa"
+	},
+	"position": "1st",
+	"competition": "Laser Nationals 2019",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.051Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652cfb"
+	},
+	"position": "1st",
+	"competition": "Laser Nationals 2018",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.016Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652cfc"
+	},
+	"position": "4th",
+	"competition": "Laser Under-21 Europeans 2017",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.025Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652cfd"
+	},
+	"position": "5th",
+	"competition": "Laser Under-21 Worlds 2017",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.055Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652cfe"
+	},
+	"position": "1st",
+	"competition": "RS Aero 7 Worlds 2018",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.008Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652cff"
+	},
+	"position": "1st",
+	"competition": "RS Aero 7 Nationals 2020",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.026Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652d00"
+	},
+	"position": "1st",
+	"competition": "RS Aero 7 Nationals 2018",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.017Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209e1b2ccb6248652d01"
+	},
+	"position": "1st",
+	"competition": "RS Aero 7 Nationals 2017",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:14.806Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.044Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6139209f1b2ccb6248652d04"
+	},
+	"position": "2nd",
+	"competition": "Laser/ILCA UK Nationals",
+	"createdAt": {
+		"$date": "2021-09-08T20:44:15.094Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.929Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "619283af1b2ccb6248652f2c"
+	},
+	"position": "15th",
+	"competition": "Laser/ILCA World Championships 2021",
+	"createdAt": {
+		"$date": "2021-11-15T15:58:40.003Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.016Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "619283b01b2ccb6248652f2e"
+	},
+	"position": "15th",
+	"competition": "Laser/ILCA World Championships",
+	"createdAt": {
+		"$date": "2021-11-15T15:58:40.016Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.942Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "619283b01b2ccb6248652f2f"
+	},
+	"position": "22nd",
+	"competition": "Laser/ILCA European Championships",
+	"createdAt": {
+		"$date": "2021-11-15T15:58:40.017Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.907Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6270e57d1b2ccb6248653002"
+	},
+	"position": "16th",
+	"competition": "Hyeres SOF Regatta",
+	"createdAt": {
+		"$date": "2022-05-03T08:19:09.026Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.840Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6270e57d1b2ccb6248653003"
+	},
+	"position": "17th",
+	"competition": "Princess Sofia Regatta Palma",
+	"createdAt": {
+		"$date": "2022-05-03T08:19:09.026Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.903Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "629666a61b2ccb6248653368"
+	},
+	"competition": "Laser/ILCA World Championships 2022",
+	"position": "11th",
+	"createdAt": {
+		"$date": "2022-05-31T19:04:06.237Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.006Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "629666a61b2ccb6248653369"
+	},
+	"position": "11th",
+	"competition": "Laser/ILCA World Championships 2022",
+	"createdAt": {
+		"$date": "2022-05-31T19:04:06.268Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.753Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "62dd9d1a1b2ccb6248653570"
+	},
+	"position": "2nd",
+	"competition": "WASZP Worlds",
+	"createdAt": {
+		"$date": "2022-07-24T19:27:22.760Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.919Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "62dd9d1a1b2ccb6248653571"
+	},
+	"position": "3rd",
+	"competition": "WASZP UK Nationals",
+	"createdAt": {
+		"$date": "2022-07-24T19:27:22.760Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.754Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "639b841e1b2ccb6248653789"
+	},
+	"position": "5th",
+	"competition": "Laser/ILCA European Championships 2022",
+	"createdAt": {
+		"$date": "2022-12-15T20:31:26.072Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.743Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "639b841e1b2ccb624865378a"
+	},
+	"position": "5th",
+	"competition": "Laser/ILCA European Championships 2022",
+	"createdAt": {
+		"$date": "2022-12-15T20:31:26.223Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.024Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "64fa07ac1b2ccb6248653997"
+	},
+	"position": "1st",
+	"competition": "WASZP UK Nationals 2023",
+	"createdAt": {
+		"$date": "2023-09-07T17:26:04.314Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.007Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "64fa07ac1b2ccb6248653998"
+	},
+	"position": "1st",
+	"competition": "WASZP UK Nationals",
+	"createdAt": {
+		"$date": "2023-09-07T17:26:04.344Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.004Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541d5"
+	},
+	"position": "1st",
+	"competition": "WASZP UK Nationals",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541d6"
+	},
+	"position": "2nd",
+	"competition": "Endeavour Trophy",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541d7"
+	},
+	"position": "5th",
+	"competition": "WASZP Worlds",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541d8"
+	},
+	"position": "18th",
+	"competition": "ILCA Worlds",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541d9"
+	},
+	"position": "24th",
+	"competition": "Princess Sofia Regatta",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.592Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541da"
+	},
+	"position": "1st",
+	"competition": "WASZP End of Seasons",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541db"
+	},
+	"position": "5th",
+	"competition": "Endeavour Trophy",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541dc"
+	},
+	"position": "6th",
+	"competition": "Vilamoura December Grand Prix",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541dd"
+	},
+	"position": "6th",
+	"competition": "Moth Nationals Plymouth",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541de"
+	},
+	"position": "23rd",
+	"competition": "Princess Sofia Regatta",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541df"
+	},
+	"position": "25th",
+	"competition": "Hyeres SOF",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541e0"
+	},
+	"position": "36th",
+	"competition": "ILCA Worlds - The Hague",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.954Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6712a63f1b2ccb62486541e1"
+	},
+	"position": "1st",
+	"competition": "WASZP UK Nationals 2024",
+	"createdAt": {
+		"$date": "2024-10-18T18:17:35.972Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.972Z"
+	},
+	"__v": 0
+}]
+

@@ -1,0 +1,158 @@
+[{
+	"_id": {
+		"$oid": "5eb93429cab5710ce8a0ade1"
+	},
+	"logos": [],
+	"title": "Sam Whaley",
+	"content": "***8 x National Champion - 1 x World Champion***\n\nSam Whaley is a professional sailor living in Dorset, UK and representing Great Britain at events around the globe. A proud member of the British Sailing Team at 27 years old, he is campaigning full-time to represent Great Britain at the Olympics. Focused and determined, he has quickly risen up through the national and international rankings and has established himself as one to watch. Follow his journey here.",
+	"createdAt": {
+		"$date": "2020-05-11T11:16:57.402Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T17:56:10.726Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "64fb22f31b2ccb6248653a2e"
+	},
+	"Button": [
+		{
+			"_id": {
+				"$oid": "6712a13a1b2ccb6248653aa0"
+			},
+			"kind": "ComponentGlobalButton",
+			"ref": {
+				"$oid": "5ebaa220f105763a087bc464"
+			}
+		}
+	],
+	"number": 1
+},
+{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baa7b"
+	},
+	"logos": [
+		{
+			"$oid": "5eb95085b912d815d87baa5e"
+		},
+		{
+			"$oid": "5eb95080b912d815d87baa4f"
+		}
+	],
+	"content": "Sam was born \u0026 spent most of his childhood living in landlocked Berkshire before, at the age of 11, his family decided to move down to Swanage, in Dorset. Spending his teenage years growing up by the sea, Sam initially sailed for fun at his local club but soon caught the racing bug and competed in his first national competition in 2011. His progression through the sport was swift and by 2012 he was representing his country at international events.\n\nSince that moment he has been hooked on sailing and trains and competes nationally and internationally throughout the year. His relentless determination and focus have meant that he has quickly established himself as one of the best sailors in the country.\n\nAs well as his passion for sailing Sam is also very technical, going on to work at Microsoft after completing his A-levels at 18. Working in a massive multi-national company was a great experience but when the opportunity to join the British Sailing Team arose, he seized the opportunity.\n\nNow turned to professional sailing, he has a dream to represent Great Britain at the Olympic Games in the men’s Olympic singlehanded dinghy, the ILCA (formerly known as the Laser).",
+	"title": "About Sam",
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.041Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:35.344Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5ed2454214820c0d31683e02"
+	},
+	"Button": [
+		{
+			"_id": {
+				"$oid": "6712a63f1b2ccb62486541b7"
+			},
+			"kind": "ComponentGlobalButton",
+			"ref": {
+				"$oid": "5ebaad8c5e65313b85e71e7d"
+			}
+		}
+	],
+	"number": 1
+},
+{
+	"_id": {
+		"$oid": "5eb95345b912d815d87baae0"
+	},
+	"logos": [],
+	"title": "Support Sam",
+	"content": "Sponsors are an integral part of an Olympic campaign and I work with my sponsors closely to ensure that together we create valuable and meaningful content for us both. I pride myself on creating a handsome ROI and work hard to ensure my sponsors are more than happy. To find out more feel free to drop me a line.",
+	"createdAt": {
+		"$date": "2020-05-11T13:29:41.034Z"
+	},
+	"updatedAt": {
+		"$date": "2023-03-11T12:24:48.766Z"
+	},
+	"__v": 0,
+	"image": {
+		"$oid": "5ed030c2d5d8425656ec1631"
+	},
+	"Button": [
+		{
+			"_id": {
+				"$oid": "640c73101b2ccb62486538cc"
+			},
+			"kind": "ComponentGlobalButton",
+			"ref": {
+				"$oid": "5ebaadde5e65313b85e71eac"
+			}
+		}
+	],
+	"number": 2
+},
+{
+	"_id": {
+		"$oid": "5ecf861b4b37245477e50890"
+	},
+	"number": 3,
+	"title": "Coaching",
+	"content": "I offer insightful coaching designed to enhance sailor performance; mentally and physically. I have a lot of experience in many classes such as the Laser, RS Aero, Waszp, RS200 and many more. No matter what you sail, I can help give you insights on how to become smarter and slicker on the race course. Make winning inevitable.",
+	"Button": [
+		{
+			"_id": {
+				"$oid": "6712a13a1b2ccb6248653aa2"
+			},
+			"kind": "ComponentGlobalButton",
+			"ref": {
+				"$oid": "5ecf861b4b37245477e50892"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-28T09:36:27.553Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T17:56:10.779Z"
+	},
+	"__v": 1,
+	"image": {
+		"$oid": "5eb95087b912d815d87baa64"
+	},
+	"logos": []
+},
+{
+	"_id": {
+		"$oid": "5ecf861b4b37245477e50891"
+	},
+	"number": 4,
+	"title": "Sponsors",
+	"content": "Sponsors are an integral part of an Olympic campaign and I work with my partners closely to ensure that together we create valuable and meaningful content for us both. I pride myself on creating a great ROI. Check out some of my partnerships here.",
+	"Button": [
+		{
+			"_id": {
+				"$oid": "6712a13a1b2ccb6248653aa3"
+			},
+			"kind": "ComponentGlobalButton",
+			"ref": {
+				"$oid": "5ecf861b4b37245477e50893"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-28T09:36:27.553Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T17:56:10.777Z"
+	},
+	"__v": 1,
+	"image": {
+		"$oid": "5ed2d48a14820c0d31684014"
+	},
+	"logos": []
+}]
+

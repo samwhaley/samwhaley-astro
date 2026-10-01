@@ -1,0 +1,1700 @@
+type About {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  Banner: ComponentGlobalBanner
+  Intro: ComponentHomepageIntro
+  Craft: ComponentHomepageCraft
+  ambition: ComponentHomepageAmbition
+  Achievements: [ComponentHomepageAchievements]
+  QA: ComponentHomepageQaList
+}
+
+input AboutInput {
+  Banner: ComponentGlobalBannerInput
+  Intro: ComponentHomepageIntroInput
+  Craft: ComponentHomepageCraftInput
+  ambition: ComponentHomepageAmbitionInput!
+  Achievements: [ComponentHomepageAchievementInput!]
+  QA: ComponentHomepageQaListInput!
+}
+
+type BlogItem {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  title: String!
+  preview_text: String!
+  image: UploadFile
+  slug: String
+  date: String!
+  thumbnail_position: ENUM_BLOGITEM_THUMBNAIL_POSITION!
+  rich_text: String!
+  published_at: Date!
+  published: Boolean!
+  Button: [ComponentGlobalExternalButton]
+  youtube: String
+  rich_text_2: String
+  youtube_2: String
+  rich_text_3: String
+  likes: Float
+  photo_grid(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
+  photo_grid_2(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
+}
+
+type BlogItemAggregator {
+  count: Int
+  totalCount: Int
+  sum: BlogItemAggregatorSum
+  avg: BlogItemAggregatorAvg
+  min: BlogItemAggregatorMin
+  max: BlogItemAggregatorMax
+}
+
+type BlogItemAggregatorAvg {
+  likes: Float
+}
+
+type BlogItemAggregatorMax {
+  likes: Float
+}
+
+type BlogItemAggregatorMin {
+  likes: Float
+}
+
+type BlogItemAggregatorSum {
+  likes: Float
+}
+
+type BlogItemConnection {
+  values: [BlogItem]
+  groupBy: BlogItemGroupBy
+  aggregate: BlogItemAggregator
+}
+
+type BlogItemConnection_id {
+  key: ID
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionCreatedAt {
+  key: DateTime
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionDate {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionId {
+  key: ID
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionImage {
+  key: ID
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionLikes {
+  key: Float
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionPreview_text {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionPublished {
+  key: Boolean
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionPublished_at {
+  key: ID
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionRich_text {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionRich_text_2 {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionRich_text_3 {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionSlug {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionThumbnail_position {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionTitle {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionUpdatedAt {
+  key: DateTime
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionYoutube {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemConnectionYoutube_2 {
+  key: String
+  connection: BlogItemConnection
+}
+
+type BlogItemGroupBy {
+  id: [BlogItemConnectionId]
+  _id: [BlogItemConnection_id]
+  createdAt: [BlogItemConnectionCreatedAt]
+  updatedAt: [BlogItemConnectionUpdatedAt]
+  title: [BlogItemConnectionTitle]
+  preview_text: [BlogItemConnectionPreview_text]
+  image: [BlogItemConnectionImage]
+  slug: [BlogItemConnectionSlug]
+  date: [BlogItemConnectionDate]
+  thumbnail_position: [BlogItemConnectionThumbnail_position]
+  rich_text: [BlogItemConnectionRich_text]
+  published_at: [BlogItemConnectionPublished_at]
+  published: [BlogItemConnectionPublished]
+  youtube: [BlogItemConnectionYoutube]
+  rich_text_2: [BlogItemConnectionRich_text_2]
+  youtube_2: [BlogItemConnectionYoutube_2]
+  rich_text_3: [BlogItemConnectionRich_text_3]
+  likes: [BlogItemConnectionLikes]
+}
+
+input BlogItemInput {
+  title: String!
+  preview_text: String!
+  image: ID
+  slug: String
+  date: String!
+  thumbnail_position: ENUM_BLOGITEM_THUMBNAIL_POSITION!
+  rich_text: String!
+  published_at: Date!
+  published: Boolean!
+  Button: [ComponentGlobalExternalButtonInput]
+  youtube: String
+  rich_text_2: String
+  photo_grid: [ID]
+  photo_grid_2: [ID]
+  youtube_2: String
+  rich_text_3: String
+  likes: Float
+}
+
+type CoachingPage {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  Banner: ComponentGlobalBanner
+  intro_title: String
+  intro_content: String
+  Coaching_Boats: ComponentHomepageCoachingBoatList
+  Services: ComponentHomepageServices
+}
+
+input CoachingPageInput {
+  Banner: ComponentGlobalBannerInput
+  intro_title: String
+  intro_content: String
+  Coaching_Boats: ComponentHomepageCoachingBoatListInput!
+  Services: ComponentHomepageServiceInput
+}
+
+type ComponentGlobalBanner {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  title: String!
+  subtitle: String
+  image: UploadFile
+  background_position_v: ENUM_COMPONENTGLOBALBANNER_BACKGROUND_POSITION_V!
+  background_position_h: ENUM_COMPONENTGLOBALBANNER_BACKGROUND_POSITION_H!
+}
+
+input ComponentGlobalBannerInput {
+  title: String!
+  subtitle: String
+  image: ID
+  background_position_v: ENUM_COMPONENTGLOBALBANNER_BACKGROUND_POSITION_V!
+  background_position_h: ENUM_COMPONENTGLOBALBANNER_BACKGROUND_POSITION_H!
+}
+
+type ComponentGlobalButton {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  page: String!
+  text: String!
+  type: ENUM_COMPONENTGLOBALBUTTON_TYPE
+  align: ENUM_COMPONENTGLOBALBUTTON_ALIGN!
+  show: Boolean!
+}
+
+input ComponentGlobalButtonInput {
+  page: String!
+  text: String!
+  type: ENUM_COMPONENTGLOBALBUTTON_TYPE
+  align: ENUM_COMPONENTGLOBALBUTTON_ALIGN!
+  show: Boolean!
+}
+
+type ComponentGlobalExternalButton {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  link: String
+  title: String
+  image: UploadFile
+}
+
+input ComponentGlobalExternalButtonInput {
+  link: String
+  title: String
+  image: ID
+}
+
+type ComponentGlobalFooter {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  heading: String!
+  sub_heading: String!
+}
+
+input ComponentGlobalFooterInput {
+  heading: String!
+  sub_heading: String!
+}
+
+type ComponentGlobalList {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  listItem: String
+}
+
+input ComponentGlobalListInput {
+  listItem: String
+}
+
+type ComponentGlobalRichText {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  rich_text: String
+}
+
+input ComponentGlobalRichTextInput {
+  rich_text: String
+}
+
+type ComponentGlobalSponsor {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  logo: UploadFile
+}
+
+input ComponentGlobalSponsorInput {
+  logo: ID
+}
+
+input ComponentHomepageAchievementInput {
+  year: String
+  achievement_item: [ComponentHomepageAchievementItemInput!]
+}
+
+type ComponentHomepageAchievementItem {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  position: String!
+  competition: String!
+}
+
+input ComponentHomepageAchievementItemInput {
+  position: String!
+  competition: String!
+}
+
+type ComponentHomepageAchievements {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  year: String
+  achievement_item: [ComponentHomepageAchievementItem]
+}
+
+type ComponentHomepageAmbition {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  intro: String!
+  ambition_bar: [ComponentHomepageAmbitionBar]
+}
+
+type ComponentHomepageAmbitionBar {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  title: String!
+  percentage: Int!
+}
+
+input ComponentHomepageAmbitionBarInput {
+  title: String!
+  percentage: Int!
+}
+
+input ComponentHomepageAmbitionInput {
+  intro: String!
+  ambition_bar: [ComponentHomepageAmbitionBarInput!]
+}
+
+type ComponentHomepageCoachingBoatItem {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  boat_name: String
+  image: UploadFile
+  title: String!
+  content: String
+  background_position: ENUM_COMPONENTHOMEPAGECOACHINGBOATITEM_BACKGROUND_POSITION!
+}
+
+input ComponentHomepageCoachingBoatItemInput {
+  boat_name: String
+  image: ID
+  title: String!
+  content: String
+  background_position: ENUM_COMPONENTHOMEPAGECOACHINGBOATITEM_BACKGROUND_POSITION!
+}
+
+type ComponentHomepageCoachingBoatList {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  Boat: [ComponentHomepageCoachingBoatItem]
+}
+
+input ComponentHomepageCoachingBoatListInput {
+  Boat: [ComponentHomepageCoachingBoatItemInput]
+}
+
+type ComponentHomepageCraft {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  intro: String!
+  laser_image: UploadFile
+  waszp_image: UploadFile
+  laser_info: [ComponentGlobalList]
+  waszp_info: [ComponentGlobalList]
+  outro: String
+  Button: ComponentGlobalButton
+}
+
+input ComponentHomepageCraftInput {
+  intro: String!
+  laser_image: ID
+  waszp_image: ID
+  laser_info: [ComponentGlobalListInput]
+  waszp_info: [ComponentGlobalListInput]
+  outro: String
+  Button: ComponentGlobalButtonInput
+}
+
+type ComponentHomepageIntro {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  title: String!
+  content: String!
+  image: UploadFile
+  Button: ComponentGlobalButton
+  number: Int!
+  logos(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
+}
+
+input ComponentHomepageIntroInput {
+  title: String!
+  content: String!
+  image: ID
+  Button: ComponentGlobalButtonInput
+  number: Int!
+  logos: [ID]
+}
+
+type ComponentHomepageQaItem {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  question: String!
+  answer: String!
+}
+
+input ComponentHomepageQaItemInput {
+  question: String!
+  answer: String!
+}
+
+type ComponentHomepageQaList {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  qa_item: [ComponentHomepageQaItem]
+}
+
+input ComponentHomepageQaListInput {
+  qa_item: [ComponentHomepageQaItemInput]
+}
+
+input ComponentHomepageServiceInput {
+  service: [ComponentHomepageServiceItemInput]
+}
+
+type ComponentHomepageServiceItem {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  bold_text: String!
+  title: String!
+  content: String
+  image: UploadFile
+  background_position: ENUM_COMPONENTHOMEPAGESERVICEITEM_BACKGROUND_POSITION
+}
+
+input ComponentHomepageServiceItemInput {
+  bold_text: String!
+  title: String!
+  content: String
+  image: ID
+  background_position: ENUM_COMPONENTHOMEPAGESERVICEITEM_BACKGROUND_POSITION
+}
+
+type ComponentHomepageServices {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  service: [ComponentHomepageServiceItem]
+}
+
+type ComponentHomepageSponsorList {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  sponsor_item: [ComponentHomepageSponsorMain]
+}
+
+input ComponentHomepageSponsorListInput {
+  sponsor_item: [ComponentHomepageSponsorMainInput]
+}
+
+type ComponentHomepageSponsorMain {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  title: String!
+  logo: UploadFile
+  content: String!
+  link: String!
+}
+
+input ComponentHomepageSponsorMainInput {
+  title: String!
+  logo: ID
+  content: String!
+  link: String!
+}
+
+type Contact {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  intro: String
+  Banner: ComponentGlobalBanner
+}
+
+input ContactInput {
+  intro: String
+  Banner: ComponentGlobalBannerInput
+}
+
+input createBlogItemInput {
+  data: BlogItemInput
+}
+
+type createBlogItemPayload {
+  blogItem: BlogItem
+}
+
+input createRoleInput {
+  data: RoleInput
+}
+
+type createRolePayload {
+  role: UsersPermissionsRole
+}
+
+input createSponsorInput {
+  data: SponsorInput
+}
+
+type createSponsorPayload {
+  sponsor: Sponsors
+}
+
+input createUserInput {
+  data: UserInput
+}
+
+type createUserPayload {
+  user: UsersPermissionsUser
+}
+
+"""
+A date string, such as 2007-12-03, compliant with the `full-date` format
+outlined in section 5.6 of the RFC 3339 profile of the ISO 8601 standard for
+representation of dates and times using the Gregorian calendar.
+"""
+scalar Date
+
+"""
+A date-time string at UTC, such as 2007-12-03T10:15:30Z, compliant with the
+`date-time` format outlined in section 5.6 of the RFC 3339 profile of the ISO
+8601 standard for representation of dates and times using the Gregorian calendar.
+"""
+scalar DateTime
+
+type deleteAboutPayload {
+  about: About
+}
+
+input deleteBlogItemInput {
+  where: InputID
+}
+
+type deleteBlogItemPayload {
+  blogItem: BlogItem
+}
+
+type deleteCoachingPagePayload {
+  coachingPage: CoachingPage
+}
+
+type deleteContactPayload {
+  contact: Contact
+}
+
+type deleteHomePagePayload {
+  homePage: HomePage
+}
+
+type deleteNewsPagePayload {
+  newsPage: NewsPage
+}
+
+input deleteRoleInput {
+  where: InputID
+}
+
+type deleteRolePayload {
+  role: UsersPermissionsRole
+}
+
+input deleteSponsorInput {
+  where: InputID
+}
+
+type deleteSponsorPayload {
+  sponsor: Sponsors
+}
+
+type deleteSponsorsPagePayload {
+  sponsorsPage: SponsorsPage
+}
+
+input deleteUserInput {
+  where: InputID
+}
+
+type deleteUserPayload {
+  user: UsersPermissionsUser
+}
+
+input editAboutInput {
+  Banner: editComponentGlobalBannerInput
+  Intro: editComponentHomepageIntroInput
+  Craft: editComponentHomepageCraftInput
+  ambition: editComponentHomepageAmbitionInput
+  Achievements: [editComponentHomepageAchievementInput]
+  QA: editComponentHomepageQaListInput
+}
+
+input editBlogItemInput {
+  title: String
+  preview_text: String
+  image: ID
+  slug: String
+  date: String
+  thumbnail_position: ENUM_BLOGITEM_THUMBNAIL_POSITION
+  rich_text: String
+  published_at: Date
+  published: Boolean
+  Button: [editComponentGlobalExternalButtonInput]
+  youtube: String
+  rich_text_2: String
+  photo_grid: [ID]
+  photo_grid_2: [ID]
+  youtube_2: String
+  rich_text_3: String
+  likes: Float
+}
+
+input editCoachingPageInput {
+  Banner: editComponentGlobalBannerInput
+  intro_title: String
+  intro_content: String
+  Coaching_Boats: editComponentHomepageCoachingBoatListInput
+  Services: editComponentHomepageServiceInput
+}
+
+input editComponentGlobalBannerInput {
+  id: ID
+  title: String
+  subtitle: String
+  image: ID
+  background_position_v: ENUM_COMPONENTGLOBALBANNER_BACKGROUND_POSITION_V
+  background_position_h: ENUM_COMPONENTGLOBALBANNER_BACKGROUND_POSITION_H
+}
+
+input editComponentGlobalButtonInput {
+  id: ID
+  page: String
+  text: String
+  type: ENUM_COMPONENTGLOBALBUTTON_TYPE
+  align: ENUM_COMPONENTGLOBALBUTTON_ALIGN
+  show: Boolean
+}
+
+input editComponentGlobalExternalButtonInput {
+  id: ID
+  link: String
+  title: String
+  image: ID
+}
+
+input editComponentGlobalFooterInput {
+  id: ID
+  heading: String
+  sub_heading: String
+}
+
+input editComponentGlobalListInput {
+  id: ID
+  listItem: String
+}
+
+input editComponentGlobalRichTextInput {
+  id: ID
+  rich_text: String
+}
+
+input editComponentGlobalSponsorInput {
+  id: ID
+  logo: ID
+}
+
+input editComponentHomepageAchievementInput {
+  id: ID
+  year: String
+  achievement_item: [editComponentHomepageAchievementItemInput]
+}
+
+input editComponentHomepageAchievementItemInput {
+  id: ID
+  position: String
+  competition: String
+}
+
+input editComponentHomepageAmbitionBarInput {
+  id: ID
+  title: String
+  percentage: Int
+}
+
+input editComponentHomepageAmbitionInput {
+  id: ID
+  intro: String
+  ambition_bar: [editComponentHomepageAmbitionBarInput]
+}
+
+input editComponentHomepageCoachingBoatItemInput {
+  id: ID
+  boat_name: String
+  image: ID
+  title: String
+  content: String
+  background_position: ENUM_COMPONENTHOMEPAGECOACHINGBOATITEM_BACKGROUND_POSITION
+}
+
+input editComponentHomepageCoachingBoatListInput {
+  id: ID
+  Boat: [editComponentHomepageCoachingBoatItemInput]
+}
+
+input editComponentHomepageCraftInput {
+  id: ID
+  intro: String
+  laser_image: ID
+  waszp_image: ID
+  laser_info: [editComponentGlobalListInput]
+  waszp_info: [editComponentGlobalListInput]
+  outro: String
+  Button: editComponentGlobalButtonInput
+}
+
+input editComponentHomepageIntroInput {
+  id: ID
+  title: String
+  content: String
+  image: ID
+  Button: editComponentGlobalButtonInput
+  number: Int
+  logos: [ID]
+}
+
+input editComponentHomepageQaItemInput {
+  id: ID
+  question: String
+  answer: String
+}
+
+input editComponentHomepageQaListInput {
+  id: ID
+  qa_item: [editComponentHomepageQaItemInput]
+}
+
+input editComponentHomepageServiceInput {
+  id: ID
+  service: [editComponentHomepageServiceItemInput]
+}
+
+input editComponentHomepageServiceItemInput {
+  id: ID
+  bold_text: String
+  title: String
+  content: String
+  image: ID
+  background_position: ENUM_COMPONENTHOMEPAGESERVICEITEM_BACKGROUND_POSITION
+}
+
+input editComponentHomepageSponsorListInput {
+  id: ID
+  sponsor_item: [editComponentHomepageSponsorMainInput]
+}
+
+input editComponentHomepageSponsorMainInput {
+  id: ID
+  title: String
+  logo: ID
+  content: String
+  link: String
+}
+
+input editContactInput {
+  intro: String
+  Banner: editComponentGlobalBannerInput
+}
+
+input editFileInput {
+  name: String
+  alternativeText: String
+  caption: String
+  width: Int
+  height: Int
+  formats: JSON
+  hash: String
+  ext: String
+  mime: String
+  size: Float
+  url: String
+  previewUrl: String
+  provider: String
+  provider_metadata: JSON
+  related: [ID]
+}
+
+input editHomePageInput {
+  name: String
+  Banner: editComponentGlobalBannerInput
+  Intro: editComponentHomepageIntroInput
+  PageLinks: [editComponentHomepageIntroInput]
+}
+
+input editNewsPageInput {
+  intro_title: String
+  intro_content: String
+  Banner: editComponentGlobalBannerInput
+}
+
+input editRoleInput {
+  name: String
+  description: String
+  type: String
+  permissions: [ID]
+  users: [ID]
+}
+
+input editSponsorInput {
+  logo: ID
+  order: Int
+  url: String
+}
+
+input editSponsorsPageInput {
+  Banner: editComponentGlobalBannerInput
+  DonateComponent: editComponentHomepageIntroInput
+  MainSponsors: editComponentHomepageSponsorListInput
+  SecondarySponsors: editComponentHomepageSponsorListInput
+  introduction_title: String
+  introduction_content: String
+}
+
+input editUserInput {
+  username: String
+  email: String
+  provider: String
+  password: String
+  resetPasswordToken: String
+  confirmed: Boolean
+  blocked: Boolean
+  role: ID
+}
+
+enum ENUM_BLOGITEM_THUMBNAIL_POSITION {
+  center
+  left
+  right
+}
+
+enum ENUM_COMPONENTGLOBALBANNER_BACKGROUND_POSITION_H {
+  center
+  left
+  right
+}
+
+enum ENUM_COMPONENTGLOBALBANNER_BACKGROUND_POSITION_V {
+  center
+  top
+  bottom
+}
+
+enum ENUM_COMPONENTGLOBALBUTTON_ALIGN {
+  left
+  right
+  center
+}
+
+enum ENUM_COMPONENTGLOBALBUTTON_TYPE {
+  standard
+  alt
+}
+
+enum ENUM_COMPONENTHOMEPAGECOACHINGBOATITEM_BACKGROUND_POSITION {
+  left
+  right
+  top
+  bottom
+  center
+}
+
+enum ENUM_COMPONENTHOMEPAGESERVICEITEM_BACKGROUND_POSITION {
+  left
+  right
+  top
+  bottom
+  center
+}
+
+input FileInput {
+  name: String!
+  alternativeText: String
+  caption: String
+  width: Int
+  height: Int
+  formats: JSON
+  hash: String!
+  ext: String
+  mime: String!
+  size: Float!
+  url: String!
+  previewUrl: String
+  provider: String!
+  provider_metadata: JSON
+  related: [ID]
+}
+
+type ForgotPassword {
+  ok: Boolean
+}
+
+type HomePage {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  name: String!
+  Banner: ComponentGlobalBanner
+  Intro: ComponentHomepageIntro
+  PageLinks: [ComponentHomepageIntro]
+}
+
+input HomePageInput {
+  name: String!
+  Banner: ComponentGlobalBannerInput!
+  Intro: ComponentHomepageIntroInput
+  PageLinks: [ComponentHomepageIntroInput]
+}
+
+input InputID {
+  id: ID!
+}
+
+"""
+The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf).
+"""
+scalar JSON
+
+"""The `Long` scalar type represents 52-bit integers"""
+scalar Long
+
+union Morph = UsersPermissionsMe | UsersPermissionsMeRole | UsersPermissionsLoginPayload | ForgotPassword | About | updateAboutPayload | deleteAboutPayload | BlogItem | BlogItemConnection | BlogItemAggregator | BlogItemAggregatorSum | BlogItemAggregatorAvg | BlogItemAggregatorMin | BlogItemAggregatorMax | BlogItemGroupBy | BlogItemConnectionId | BlogItemConnection_id | BlogItemConnectionCreatedAt | BlogItemConnectionUpdatedAt | BlogItemConnectionTitle | BlogItemConnectionPreview_text | BlogItemConnectionImage | BlogItemConnectionSlug | BlogItemConnectionDate | BlogItemConnectionThumbnail_position | BlogItemConnectionRich_text | BlogItemConnectionPublished_at | BlogItemConnectionPublished | BlogItemConnectionYoutube | BlogItemConnectionRich_text_2 | BlogItemConnectionYoutube_2 | BlogItemConnectionRich_text_3 | BlogItemConnectionLikes | createBlogItemPayload | updateBlogItemPayload | deleteBlogItemPayload | CoachingPage | updateCoachingPagePayload | deleteCoachingPagePayload | Contact | updateContactPayload | deleteContactPayload | HomePage | updateHomePagePayload | deleteHomePagePayload | NewsPage | updateNewsPagePayload | deleteNewsPagePayload | SponsorsPage | updateSponsorsPagePayload | deleteSponsorsPagePayload | Sponsors | SponsorsConnection | SponsorsAggregator | SponsorsAggregatorSum | SponsorsAggregatorAvg | SponsorsAggregatorMin | SponsorsAggregatorMax | SponsorsGroupBy | SponsorsConnectionId | SponsorsConnection_id | SponsorsConnectionCreatedAt | SponsorsConnectionUpdatedAt | SponsorsConnectionLogo | SponsorsConnectionOrder | SponsorsConnectionUrl | createSponsorPayload | updateSponsorPayload | deleteSponsorPayload | UploadFile | UploadFileConnection | UploadFileAggregator | UploadFileAggregatorSum | UploadFileAggregatorAvg | UploadFileAggregatorMin | UploadFileAggregatorMax | UploadFileGroupBy | UploadFileConnectionId | UploadFileConnection_id | UploadFileConnectionCreatedAt | UploadFileConnectionUpdatedAt | UploadFileConnectionName | UploadFileConnectionAlternativeText | UploadFileConnectionCaption | UploadFileConnectionWidth | UploadFileConnectionHeight | UploadFileConnectionFormats | UploadFileConnectionHash | UploadFileConnectionExt | UploadFileConnectionMime | UploadFileConnectionSize | UploadFileConnectionUrl | UploadFileConnectionPreviewUrl | UploadFileConnectionProvider | UploadFileConnectionProvider_metadata | UsersPermissionsPermission | UsersPermissionsRole | UsersPermissionsRoleConnection | UsersPermissionsRoleAggregator | UsersPermissionsRoleGroupBy | UsersPermissionsRoleConnectionId | UsersPermissionsRoleConnection_id | UsersPermissionsRoleConnectionCreatedAt | UsersPermissionsRoleConnectionUpdatedAt | UsersPermissionsRoleConnectionName | UsersPermissionsRoleConnectionDescription | UsersPermissionsRoleConnectionType | createRolePayload | updateRolePayload | deleteRolePayload | UsersPermissionsUser | UsersPermissionsUserConnection | UsersPermissionsUserAggregator | UsersPermissionsUserGroupBy | UsersPermissionsUserConnectionId | UsersPermissionsUserConnection_id | UsersPermissionsUserConnectionCreatedAt | UsersPermissionsUserConnectionUpdatedAt | UsersPermissionsUserConnectionUsername | UsersPermissionsUserConnectionEmail | UsersPermissionsUserConnectionProvider | UsersPermissionsUserConnectionConfirmed | UsersPermissionsUserConnectionBlocked | UsersPermissionsUserConnectionRole | createUserPayload | updateUserPayload | deleteUserPayload | ComponentGlobalBanner | ComponentGlobalButton | ComponentGlobalExternalButton | ComponentGlobalFooter | ComponentGlobalList | ComponentGlobalRichText | ComponentGlobalSponsor | ComponentHomepageAchievementItem | ComponentHomepageAchievements | ComponentHomepageAmbitionBar | ComponentHomepageAmbition | ComponentHomepageCoachingBoatItem | ComponentHomepageCoachingBoatList | ComponentHomepageCraft | ComponentHomepageIntro | ComponentHomepageQaItem | ComponentHomepageQaList | ComponentHomepageServiceItem | ComponentHomepageServices | ComponentHomepageSponsorList | ComponentHomepageSponsorMain
+
+type Mutation {
+  updateAbout(input: updateAboutInput): updateAboutPayload
+  deleteAbout: deleteAboutPayload
+  createBlogItem(input: createBlogItemInput): createBlogItemPayload
+  updateBlogItem(input: updateBlogItemInput): updateBlogItemPayload
+  deleteBlogItem(input: deleteBlogItemInput): deleteBlogItemPayload
+  updateCoachingPage(input: updateCoachingPageInput): updateCoachingPagePayload
+  deleteCoachingPage: deleteCoachingPagePayload
+  updateContact(input: updateContactInput): updateContactPayload
+  deleteContact: deleteContactPayload
+  updateHomePage(input: updateHomePageInput): updateHomePagePayload
+  deleteHomePage: deleteHomePagePayload
+  updateNewsPage(input: updateNewsPageInput): updateNewsPagePayload
+  deleteNewsPage: deleteNewsPagePayload
+  updateSponsorsPage(input: updateSponsorsPageInput): updateSponsorsPagePayload
+  deleteSponsorsPage: deleteSponsorsPagePayload
+  createSponsor(input: createSponsorInput): createSponsorPayload
+  updateSponsor(input: updateSponsorInput): updateSponsorPayload
+  deleteSponsor(input: deleteSponsorInput): deleteSponsorPayload
+
+  """Create a new role"""
+  createRole(input: createRoleInput): createRolePayload
+
+  """Update an existing role"""
+  updateRole(input: updateRoleInput): updateRolePayload
+
+  """Delete an existing role"""
+  deleteRole(input: deleteRoleInput): deleteRolePayload
+
+  """Create a new user"""
+  createUser(input: createUserInput): createUserPayload
+
+  """Update an existing user"""
+  updateUser(input: updateUserInput): updateUserPayload
+
+  """Delete an existing user"""
+  deleteUser(input: deleteUserInput): deleteUserPayload
+  upload(refId: ID, ref: String, field: String, source: String, file: Upload!): UploadFile!
+  multipleUpload(refId: ID, ref: String, field: String, source: String, files: [Upload]!): [UploadFile]!
+  login(input: UsersPermissionsLoginInput!): UsersPermissionsLoginPayload!
+  register(input: UserInput!): UsersPermissionsLoginPayload!
+  forgotPassword(email: String!): ForgotPassword
+  changePassword(password: String!, passwordConfirmation: String!, code: String!): UsersPermissionsLoginPayload
+  emailConfirmation(confirmation: String!): UsersPermissionsLoginPayload
+}
+
+type NewsPage {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  intro_title: String!
+  intro_content: String!
+  Banner: ComponentGlobalBanner
+}
+
+input NewsPageInput {
+  intro_title: String!
+  intro_content: String!
+  Banner: ComponentGlobalBannerInput
+}
+
+type Query {
+  about: About
+  blogItem(id: ID!): BlogItem
+  blogItems(sort: String, limit: Int, start: Int, where: JSON): [BlogItem]
+  blogItemsConnection(sort: String, limit: Int, start: Int, where: JSON): BlogItemConnection
+  coachingPage: CoachingPage
+  contact: Contact
+  homePage: HomePage
+  newsPage: NewsPage
+  sponsorsPage: SponsorsPage
+  sponsor(id: ID!): Sponsors
+  sponsors(sort: String, limit: Int, start: Int, where: JSON): [Sponsors]
+  sponsorsConnection(sort: String, limit: Int, start: Int, where: JSON): SponsorsConnection
+  files(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
+  filesConnection(sort: String, limit: Int, start: Int, where: JSON): UploadFileConnection
+  role(id: ID!): UsersPermissionsRole
+
+  """
+  Retrieve all the existing roles. You can't apply filters on this query.
+  """
+  roles(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsRole]
+  rolesConnection(sort: String, limit: Int, start: Int, where: JSON): UsersPermissionsRoleConnection
+  user(id: ID!): UsersPermissionsUser
+  users(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsUser]
+  usersConnection(sort: String, limit: Int, start: Int, where: JSON): UsersPermissionsUserConnection
+  me: UsersPermissionsMe
+}
+
+input RoleInput {
+  name: String!
+  description: String
+  type: String
+  permissions: [ID]
+  users: [ID]
+}
+
+input SponsorInput {
+  logo: ID
+  order: Int
+  url: String
+}
+
+type Sponsors {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  logo: UploadFile
+  order: Int
+  url: String
+}
+
+type SponsorsAggregator {
+  count: Int
+  totalCount: Int
+  sum: SponsorsAggregatorSum
+  avg: SponsorsAggregatorAvg
+  min: SponsorsAggregatorMin
+  max: SponsorsAggregatorMax
+}
+
+type SponsorsAggregatorAvg {
+  order: Float
+}
+
+type SponsorsAggregatorMax {
+  order: Float
+}
+
+type SponsorsAggregatorMin {
+  order: Float
+}
+
+type SponsorsAggregatorSum {
+  order: Float
+}
+
+type SponsorsConnection {
+  values: [Sponsors]
+  groupBy: SponsorsGroupBy
+  aggregate: SponsorsAggregator
+}
+
+type SponsorsConnection_id {
+  key: ID
+  connection: SponsorsConnection
+}
+
+type SponsorsConnectionCreatedAt {
+  key: DateTime
+  connection: SponsorsConnection
+}
+
+type SponsorsConnectionId {
+  key: ID
+  connection: SponsorsConnection
+}
+
+type SponsorsConnectionLogo {
+  key: ID
+  connection: SponsorsConnection
+}
+
+type SponsorsConnectionOrder {
+  key: Int
+  connection: SponsorsConnection
+}
+
+type SponsorsConnectionUpdatedAt {
+  key: DateTime
+  connection: SponsorsConnection
+}
+
+type SponsorsConnectionUrl {
+  key: String
+  connection: SponsorsConnection
+}
+
+type SponsorsGroupBy {
+  id: [SponsorsConnectionId]
+  _id: [SponsorsConnection_id]
+  createdAt: [SponsorsConnectionCreatedAt]
+  updatedAt: [SponsorsConnectionUpdatedAt]
+  logo: [SponsorsConnectionLogo]
+  order: [SponsorsConnectionOrder]
+  url: [SponsorsConnectionUrl]
+}
+
+type SponsorsPage {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  Banner: ComponentGlobalBanner
+  DonateComponent: ComponentHomepageIntro
+  MainSponsors: ComponentHomepageSponsorList
+  SecondarySponsors: ComponentHomepageSponsorList
+  introduction_title: String
+  introduction_content: String
+}
+
+input SponsorsPageInput {
+  Banner: ComponentGlobalBannerInput
+  DonateComponent: ComponentHomepageIntroInput
+  MainSponsors: ComponentHomepageSponsorListInput
+  SecondarySponsors: ComponentHomepageSponsorListInput
+  introduction_title: String
+  introduction_content: String
+}
+
+"""A time string with format: HH:mm:ss.SSS"""
+scalar Time
+
+input updateAboutInput {
+  data: editAboutInput
+}
+
+type updateAboutPayload {
+  about: About
+}
+
+input updateBlogItemInput {
+  where: InputID
+  data: editBlogItemInput
+}
+
+type updateBlogItemPayload {
+  blogItem: BlogItem
+}
+
+input updateCoachingPageInput {
+  data: editCoachingPageInput
+}
+
+type updateCoachingPagePayload {
+  coachingPage: CoachingPage
+}
+
+input updateContactInput {
+  data: editContactInput
+}
+
+type updateContactPayload {
+  contact: Contact
+}
+
+input updateHomePageInput {
+  data: editHomePageInput
+}
+
+type updateHomePagePayload {
+  homePage: HomePage
+}
+
+input updateNewsPageInput {
+  data: editNewsPageInput
+}
+
+type updateNewsPagePayload {
+  newsPage: NewsPage
+}
+
+input updateRoleInput {
+  where: InputID
+  data: editRoleInput
+}
+
+type updateRolePayload {
+  role: UsersPermissionsRole
+}
+
+input updateSponsorInput {
+  where: InputID
+  data: editSponsorInput
+}
+
+type updateSponsorPayload {
+  sponsor: Sponsors
+}
+
+input updateSponsorsPageInput {
+  data: editSponsorsPageInput
+}
+
+type updateSponsorsPagePayload {
+  sponsorsPage: SponsorsPage
+}
+
+input updateUserInput {
+  where: InputID
+  data: editUserInput
+}
+
+type updateUserPayload {
+  user: UsersPermissionsUser
+}
+
+"""The `Upload` scalar type represents a file upload."""
+scalar Upload
+
+type UploadFile {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  name: String!
+  alternativeText: String
+  caption: String
+  width: Int
+  height: Int
+  formats: JSON
+  hash: String!
+  ext: String
+  mime: String!
+  size: Float!
+  url: String!
+  previewUrl: String
+  provider: String!
+  provider_metadata: JSON
+  related(sort: String, limit: Int, start: Int, where: JSON): [Morph]
+}
+
+type UploadFileAggregator {
+  count: Int
+  totalCount: Int
+  sum: UploadFileAggregatorSum
+  avg: UploadFileAggregatorAvg
+  min: UploadFileAggregatorMin
+  max: UploadFileAggregatorMax
+}
+
+type UploadFileAggregatorAvg {
+  width: Float
+  height: Float
+  size: Float
+}
+
+type UploadFileAggregatorMax {
+  width: Float
+  height: Float
+  size: Float
+}
+
+type UploadFileAggregatorMin {
+  width: Float
+  height: Float
+  size: Float
+}
+
+type UploadFileAggregatorSum {
+  width: Float
+  height: Float
+  size: Float
+}
+
+type UploadFileConnection {
+  values: [UploadFile]
+  groupBy: UploadFileGroupBy
+  aggregate: UploadFileAggregator
+}
+
+type UploadFileConnection_id {
+  key: ID
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionAlternativeText {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionCaption {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionCreatedAt {
+  key: DateTime
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionExt {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionFormats {
+  key: JSON
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionHash {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionHeight {
+  key: Int
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionId {
+  key: ID
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionMime {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionName {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionPreviewUrl {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionProvider {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionProvider_metadata {
+  key: JSON
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionSize {
+  key: Float
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionUpdatedAt {
+  key: DateTime
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionUrl {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionWidth {
+  key: Int
+  connection: UploadFileConnection
+}
+
+type UploadFileGroupBy {
+  id: [UploadFileConnectionId]
+  _id: [UploadFileConnection_id]
+  createdAt: [UploadFileConnectionCreatedAt]
+  updatedAt: [UploadFileConnectionUpdatedAt]
+  name: [UploadFileConnectionName]
+  alternativeText: [UploadFileConnectionAlternativeText]
+  caption: [UploadFileConnectionCaption]
+  width: [UploadFileConnectionWidth]
+  height: [UploadFileConnectionHeight]
+  formats: [UploadFileConnectionFormats]
+  hash: [UploadFileConnectionHash]
+  ext: [UploadFileConnectionExt]
+  mime: [UploadFileConnectionMime]
+  size: [UploadFileConnectionSize]
+  url: [UploadFileConnectionUrl]
+  previewUrl: [UploadFileConnectionPreviewUrl]
+  provider: [UploadFileConnectionProvider]
+  provider_metadata: [UploadFileConnectionProvider_metadata]
+}
+
+input UserInput {
+  username: String!
+  email: String!
+  provider: String
+  password: String
+  resetPasswordToken: String
+  confirmed: Boolean
+  blocked: Boolean
+  role: ID
+}
+
+input UsersPermissionsLoginInput {
+  identifier: String!
+  password: String!
+  provider: String = "local"
+}
+
+type UsersPermissionsLoginPayload {
+  jwt: String!
+  user: UsersPermissionsMe!
+}
+
+type UsersPermissionsMe {
+  id: ID!
+  username: String!
+  email: String!
+  confirmed: Boolean
+  blocked: Boolean
+  role: UsersPermissionsMeRole
+}
+
+type UsersPermissionsMeRole {
+  id: ID!
+  name: String!
+  description: String
+  type: String
+}
+
+type UsersPermissionsPermission {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  type: String!
+  controller: String!
+  action: String!
+  enabled: Boolean!
+  policy: String
+  role: UsersPermissionsRole
+}
+
+type UsersPermissionsRole {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  name: String!
+  description: String
+  type: String
+  permissions(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsPermission]
+  users(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsUser]
+}
+
+type UsersPermissionsRoleAggregator {
+  count: Int
+  totalCount: Int
+}
+
+type UsersPermissionsRoleConnection {
+  values: [UsersPermissionsRole]
+  groupBy: UsersPermissionsRoleGroupBy
+  aggregate: UsersPermissionsRoleAggregator
+}
+
+type UsersPermissionsRoleConnection_id {
+  key: ID
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleConnectionCreatedAt {
+  key: DateTime
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleConnectionDescription {
+  key: String
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleConnectionId {
+  key: ID
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleConnectionName {
+  key: String
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleConnectionType {
+  key: String
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleConnectionUpdatedAt {
+  key: DateTime
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleGroupBy {
+  id: [UsersPermissionsRoleConnectionId]
+  _id: [UsersPermissionsRoleConnection_id]
+  createdAt: [UsersPermissionsRoleConnectionCreatedAt]
+  updatedAt: [UsersPermissionsRoleConnectionUpdatedAt]
+  name: [UsersPermissionsRoleConnectionName]
+  description: [UsersPermissionsRoleConnectionDescription]
+  type: [UsersPermissionsRoleConnectionType]
+}
+
+type UsersPermissionsUser {
+  id: ID!
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  username: String!
+  email: String!
+  provider: String
+  confirmed: Boolean
+  blocked: Boolean
+  role: UsersPermissionsRole
+}
+
+type UsersPermissionsUserAggregator {
+  count: Int
+  totalCount: Int
+}
+
+type UsersPermissionsUserConnection {
+  values: [UsersPermissionsUser]
+  groupBy: UsersPermissionsUserGroupBy
+  aggregate: UsersPermissionsUserAggregator
+}
+
+type UsersPermissionsUserConnection_id {
+  key: ID
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionBlocked {
+  key: Boolean
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionConfirmed {
+  key: Boolean
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionCreatedAt {
+  key: DateTime
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionEmail {
+  key: String
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionId {
+  key: ID
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionProvider {
+  key: String
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionRole {
+  key: ID
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionUpdatedAt {
+  key: DateTime
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionUsername {
+  key: String
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserGroupBy {
+  id: [UsersPermissionsUserConnectionId]
+  _id: [UsersPermissionsUserConnection_id]
+  createdAt: [UsersPermissionsUserConnectionCreatedAt]
+  updatedAt: [UsersPermissionsUserConnectionUpdatedAt]
+  username: [UsersPermissionsUserConnectionUsername]
+  email: [UsersPermissionsUserConnectionEmail]
+  provider: [UsersPermissionsUserConnectionProvider]
+  confirmed: [UsersPermissionsUserConnectionConfirmed]
+  blocked: [UsersPermissionsUserConnectionBlocked]
+  role: [UsersPermissionsUserConnectionRole]
+}

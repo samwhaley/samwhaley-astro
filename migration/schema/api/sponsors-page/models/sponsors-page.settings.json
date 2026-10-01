@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "sponsors_pages",
+  "info": {
+    "name": "SponsorsPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.banner"
+    },
+    "DonateComponent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.intro"
+    },
+    "MainSponsors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.sponsor-list"
+    },
+    "SecondarySponsors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.sponsor-list"
+    },
+    "introduction_title": {
+      "type": "string",
+      "required": false
+    },
+    "introduction_content": {
+      "type": "richtext",
+      "required": false
+    }
+  }
+}

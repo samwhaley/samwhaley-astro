@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_coaching_boat_lists",
+  "info": {
+    "name": "coaching_boat_list",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "Boat": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.coaching-boat-item"
+    }
+  }
+}

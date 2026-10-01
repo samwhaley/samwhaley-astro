@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_qa_lists",
+  "info": {
+    "name": "qaList",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "qa_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.qa-item"
+    }
+  }
+}

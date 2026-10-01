@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_qa_items",
+  "info": {
+    "name": "qaItem",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

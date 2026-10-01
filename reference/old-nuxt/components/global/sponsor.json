@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_sponsors",
+  "info": {
+    "name": "Sponsor",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

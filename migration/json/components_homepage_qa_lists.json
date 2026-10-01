@@ -1,0 +1,123 @@
+[{
+	"_id": {
+		"$oid": "5eb95205b912d815d87baad2"
+	},
+	"qa_item": [
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865424e"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baad3"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865424d"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5eb95205b912d815d87baad4"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865424c"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ebea699072cb52765c9e6db"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865424b"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ebea699072cb52765c9e6dc"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb624865424a"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ebea699072cb52765c9e6dd"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654249"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ece6d6b18b45e330ee60a7e"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654248"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ece6d6b18b45e330ee60a7f"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654247"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ece6d6b18b45e330ee60a80"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654246"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ece6d6b18b45e330ee60a81"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654245"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ece6d6b18b45e330ee60a82"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654244"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ece6d6b18b45e330ee60a83"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "6712a6401b2ccb6248654243"
+			},
+			"kind": "ComponentHomepageQaItem",
+			"ref": {
+				"$oid": "5ece6d6b18b45e330ee60a84"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:24:21.414Z"
+	},
+	"updatedAt": {
+		"$date": "2024-10-18T18:17:36.398Z"
+	},
+	"__v": 1
+}]
+

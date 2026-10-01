@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_achievements",
+  "info": {
+    "name": "achievements",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "achievement_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.achievement-item",
+      "required": true
+    }
+  }
+}

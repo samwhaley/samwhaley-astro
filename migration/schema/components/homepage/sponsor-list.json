@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_sponsor_lists",
+  "info": {
+    "name": "sponsorList",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "sponsor_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.sponsor-main"
+    }
+  }
+}

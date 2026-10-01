@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_rich_texts",
+  "info": {
+    "name": "RichText",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "rich_text": {
+      "type": "richtext"
+    }
+  }
+}

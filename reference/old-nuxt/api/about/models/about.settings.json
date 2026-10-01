@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.banner"
+    },
+    "Intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.intro"
+    },
+    "Craft": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.craft"
+    },
+    "ambition": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.ambition",
+      "required": true
+    },
+    "Achievements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.achievements",
+      "required": true
+    },
+    "QA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.qa-list",
+      "required": true
+    }
+  }
+}

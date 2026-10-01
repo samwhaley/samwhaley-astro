@@ -1,0 +1,48 @@
+[{
+	"_id": {
+		"$oid": "5eb95485b912d815d87baafc"
+	},
+	"intro_content": "I am a fully qualified race coach specialising in singlehanded sailing coaching. Racing the Laser Standard/ILCA 7 as part of the British Sailing Team, I have competed at national and international level with successes including winning the Laser Nationals twice, finishing 5th place at the Laser/ILCA European Championships in 2022 as well as 11th at the World Championships. I've also won the WASZP nationals twice and finished 2nd at the worlds. **[Find out more about me here.](https://samwhaley.com/about)**\n\nI offer insightful coaching designed to enhance sailor performance physically as well as mentally. With first hand experiance in many classes such as the Laser, RS Aero, RS200 and foilers such as the Waszp, I am confident that whatever you may sail, I can help you become a faster and smarter sailor. \n\n**A coaching session with me starts at £300, excluding travel costs, [but feel free to contact me for a tailored quote.](https://samwhaley.com/contact)**\n\nHere are the main classes I offer coaching for and my various services:",
+	"intro_title": "World Class Coaching",
+	"Banner": [
+		{
+			"_id": {
+				"$oid": "64fa083b1b2ccb6248653a02"
+			},
+			"kind": "ComponentGlobalBanner",
+			"ref": {
+				"$oid": "5eb95485b912d815d87baafd"
+			}
+		}
+	],
+	"Coaching_Boats": [
+		{
+			"_id": {
+				"$oid": "64fa083b1b2ccb6248653a06"
+			},
+			"kind": "ComponentHomepageCoachingBoatList",
+			"ref": {
+				"$oid": "5eb95485b912d815d87bab00"
+			}
+		}
+	],
+	"Services": [
+		{
+			"_id": {
+				"$oid": "64fa083b1b2ccb6248653a0a"
+			},
+			"kind": "ComponentHomepageServices",
+			"ref": {
+				"$oid": "5eb95485b912d815d87bab0b"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.834Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.426Z"
+	},
+	"__v": 3
+}]
+

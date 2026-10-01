@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_achievement_items",
+  "info": {
+    "name": "achievementItem",
+    "icon": "life-ring"
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "competition": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

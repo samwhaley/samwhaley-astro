@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_lists",
+  "info": {
+    "name": "list",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "listItem": {
+      "type": "string"
+    }
+  }
+}

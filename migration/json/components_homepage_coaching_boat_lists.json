@@ -1,0 +1,42 @@
+[{
+	"_id": {
+		"$oid": "5eb95485b912d815d87bab00"
+	},
+	"Boat": [
+		{
+			"_id": {
+				"$oid": "64fa083b1b2ccb6248653a05"
+			},
+			"kind": "ComponentHomepageCoachingBoatItem",
+			"ref": {
+				"$oid": "5eb95485b912d815d87bab01"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "64fa083b1b2ccb6248653a04"
+			},
+			"kind": "ComponentHomepageCoachingBoatItem",
+			"ref": {
+				"$oid": "5eb95485b912d815d87bab02"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "64fa083b1b2ccb6248653a03"
+			},
+			"kind": "ComponentHomepageCoachingBoatItem",
+			"ref": {
+				"$oid": "5eb95485b912d815d87bab03"
+			}
+		}
+	],
+	"createdAt": {
+		"$date": "2020-05-11T13:35:01.854Z"
+	},
+	"updatedAt": {
+		"$date": "2023-09-07T17:28:27.279Z"
+	},
+	"__v": 1
+}]
+

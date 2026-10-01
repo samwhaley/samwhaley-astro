@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "home",
+      "required": true
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.banner",
+      "required": true
+    },
+    "Intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.intro"
+    },
+    "PageLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.intro"
+    }
+  }
+}
