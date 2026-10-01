@@ -1,0 +1,81 @@
+{
+  "banner": {
+    "title": "Sponsors",
+    "subtitle": null,
+    "image": "/uploads/Portugal+2020_8f099b7ebe.jpeg",
+    "backgroundPositionV": "bottom",
+    "backgroundPositionH": "center"
+  },
+  "donateComponent": {
+    "title": "Support Sam",
+    "content": "Sponsors are an integral part of an Olympic campaign and I work with my sponsors closely to ensure that together we create valuable and meaningful content for us both. I pride myself on creating a handsome ROI and work hard to ensure my sponsors are more than happy. To find out more feel free to drop me a line.",
+    "image": "/uploads/SWS_Me_00f201ca6f.jpeg",
+    "button": {
+      "page": "contact",
+      "text": "contact sam",
+      "type": "standard",
+      "align": "left",
+      "show": true
+    },
+    "number": 2,
+    "logos": []
+  },
+  "mainSponsors": {
+    "sponsorItem": [
+      {
+        "title": "British Sailing Team",
+        "logo": "/uploads/BST+New2_9fa3c33e7d.png",
+        "content": "The British Sailing Team is the most successful national Olympic sailing team of all time. British Sailing Team athletes compete in all ten Olympic classes, flying the flag for Great Britain at regattas all over the world.  \n\n",
+        "link": "https://britishsailingteam.rya.org.uk/"
+      },
+      {
+        "title": "Actisense",
+        "logo": "/uploads/Acti_b0ab618de8.png",
+        "content": "Actisense are dedicated to supplying intelligent sensors and interfaces that are unrivalled for their quality, features & reliability.  \nA headline sponsor since 2018, Actisense have been by my side throughout.",
+        "link": "https://www.actisense.com/"
+      },
+      {
+        "title": "SailingFast",
+        "logo": "/uploads/Sailingfast-logo_80ff1a8b29.jpeg",
+        "content": "Sailingfast is dedicated to supplying your dinghy spares. They want to make it easy for you to get the best equipment on the market as quickly as possible so you can concentrate on sailing fast!",
+        "link": "https://sailingfast.co.uk/"
+      },
+      {
+        "title": "Noble Marine",
+        "logo": "/uploads/noble_marine_large_logo_8b8bbf4f7a.jpeg",
+        "content": "Noble Marine Insurance are a specialist boat insurance provider with over 30 years experience in insuring everything from surfboards to £1m racing yachts.",
+        "link": "https://www.noblemarine.co.uk/"
+      }
+    ]
+  },
+  "secondarySponsors": {
+    "sponsorItem": [
+      {
+        "title": "Ovington Boats",
+        "logo": "/uploads/Ovington_cff70c5f1b.png",
+        "content": "Ovington Boats are one of the worlds most successful small boat building businesses specialising in the high performance dinghy market. They have an enviable reputation for quality and service across a wide range of products.",
+        "link": "https://ovingtonboats.com/"
+      },
+      {
+        "title": "Joes Gym",
+        "logo": "/uploads/joesgym_9e347ea1b7.jpeg",
+        "content": "Joe has been instrumental in my sailing performance over the years, working to develop my strength and fitness over a number of years to enable me to perform at my best.",
+        "link": "https://www.joesgymswanage.co.uk/"
+      },
+      {
+        "title": "Generation Graphics",
+        "logo": "/uploads/Generation_Graphics_7d1aa16489.jpeg",
+        "content": "Generation Graphics are a dedicated marine wrapping, graphics & branding company. Based in Southampton in the heart of British boating, they are at the forefront of delivering both aesthetic transformations and sharing brand identities.",
+        "link": "https://www.generationgraphics.co.uk/"
+      },
+      {
+        "title": "Golden Buoy",
+        "logo": "/uploads/GB2021_8a1ff75d62.jpeg",
+        "content": "Ethically created on a carbon neutral production line, Golden Buoy uses organic cotton to produce casual clothing for fans of all water sports. ",
+        "link": "https://www.goldenbuoy.com/"
+      }
+    ]
+  },
+  "introductionTitle": "Sponsors",
+  "introductionContent": "Sponsors are an integral part of an Olympic campaign and I work with my partners closely to ensure that together we create valuable and meaningful content for us both to use. I am lucky enough to work with some talented companies and with the help of these I have managed to complete some pretty cool projects such as designing and building a carbon fibre compass mount for my ILCA, custom designing clothing products, wrapping my foiling Waszp dinghy with a unique colour and much more. \n\nI have multiple ROI solutions for every company, so if you have something cool to offer feel free to get in touch and I would love to discuss what we can do.\n"
+}

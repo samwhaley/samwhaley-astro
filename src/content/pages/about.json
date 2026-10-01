@@ -1,0 +1,583 @@
+{
+  "banner": {
+    "title": "About",
+    "subtitle": "",
+    "image": "/uploads/Swanage+Regatta+2019_c1a701d2ec.jpeg",
+    "backgroundPositionV": "bottom",
+    "backgroundPositionH": "center"
+  },
+  "intro": {
+    "title": "About Sam",
+    "content": "Sam was born & spent most of his childhood living in landlocked Berkshire before, at the age of 11, his family decided to move down to Swanage, in Dorset. Spending his teenage years growing up by the sea, Sam initially sailed for fun at his local club but soon caught the racing bug and competed in his first national competition in 2011. His progression through the sport was swift and by 2012 he was representing his country at international events.\n\nSince that moment he has been hooked on sailing and trains and competes nationally and internationally throughout the year. His relentless determination and focus have meant that he has quickly established himself as one of the best sailors in the country.\n\nAs well as his passion for sailing Sam is also very technical, going on to work at Microsoft after completing his A-levels at 18. Working in a massive multi-national company was a great experience but when the opportunity to join the British Sailing Team arose, he seized the opportunity.\n\nNow turned to professional sailing, he has a dream to represent Great Britain at the Olympic Games in the men’s Olympic singlehanded dinghy, the ILCA (formerly known as the Laser).",
+    "image": "/uploads/me3_2f8528df10.jpeg",
+    "button": {
+      "page": "news",
+      "text": "latest news",
+      "type": "standard",
+      "align": "left",
+      "show": true
+    },
+    "number": 1,
+    "logos": [
+      "/uploads/BST+New2_9fa3c33e7d.png",
+      "/uploads/Acti_b0ab618de8.png"
+    ]
+  },
+  "craft": {
+    "intro": "Sam sails the ILCA dinghy (formerly known as the Laser), the Men’s Olympic singlehanded dinghy. It is an extremely competitive and tactical boat to sail, challenging both mentally and physically. The boat is a one design class, meaning that every boat is the same and therefore the best sailor is the one who wins. In most conditions the boat requires power, endurance and strength to achieve the maximum speed possible, hence why the best ILCA sailors are some of the strongest and fittest athletes at the Games.\n\nSam has experience in a lot of other classes and has been a large part of the WASZP class, being UK class chariman for the past four years. Check out the statistics for these two very different boats below.",
+    "laserImage": "/uploads/laser_4d92f1ba10.png",
+    "waszpImage": "/uploads/MOCKUP_-_Copy_876377bc23.jpeg",
+    "laserInfo": [
+      {
+        "listItem": "OVER 220,000 SOLD AROUND THE WORLD"
+      },
+      {
+        "listItem": "SAIL AREA OF 7 METRES SQUARED"
+      },
+      {
+        "listItem": "OPTIMUM SAILOR WEIGHT: 80-84KG"
+      },
+      {
+        "listItem": "NUMBER OF CREW: 1"
+      },
+      {
+        "listItem": "GRP CONSTRUCTION"
+      },
+      {
+        "listItem": "ONE DESIGN CLASS"
+      },
+      {
+        "listItem": "RIGGED WEIGHT OF 76 KG"
+      },
+      {
+        "listItem": "TOP SPEED: 20 MPH"
+      },
+      {
+        "listItem": "PRICE: £6000+"
+      }
+    ],
+    "waszpInfo": [
+      {
+        "listItem": "SAIL AREA OF 8.2 METRES SQUARED"
+      },
+      {
+        "listItem": "RIGGED WEIGHT OF 48KG"
+      },
+      {
+        "listItem": "OPTIMUM SAILOR WEIGHT: 74-80KG"
+      },
+      {
+        "listItem": "UNDERWATER FOILS ALLOW THE BOAT TO 'FLY'"
+      },
+      {
+        "listItem": "NUMBER OF CREW: 1"
+      },
+      {
+        "listItem": "CARBON FIBRE EPOXY HONEYCOMB CONSTRUCTION"
+      },
+      {
+        "listItem": "ONE DESIGN CLASS"
+      },
+      {
+        "listItem": "TOP SPEED: 30 MPH"
+      },
+      {
+        "listItem": "PRICE: £12,000"
+      }
+    ],
+    "outro": "",
+    "button": {
+      "page": "/contact",
+      "text": "help sam",
+      "type": "alt",
+      "align": "left",
+      "show": false
+    }
+  },
+  "ambition": {
+    "intro": "Sam is part of the British Sailing Team, the most successful Olympic sailing team of all time. With his burning ambition to one day represent Great Britain at the Olympic Games, he is only part way through his journey to reach the top.\n\nWhilst the next few step for Sam will undoubtedly be the hardest, his goal of representing Team GB at the Olympics and returning with a medal is just one small step away.",
+    "ambitionBar": [
+      {
+        "title": "Olympics",
+        "percentage": 7
+      },
+      {
+        "title": "British Sailing Team",
+        "percentage": 30
+      },
+      {
+        "title": "Youth National Squad",
+        "percentage": 100
+      },
+      {
+        "title": "Junior National Squad",
+        "percentage": 100
+      },
+      {
+        "title": "Zone Regional Squad",
+        "percentage": 100
+      },
+      {
+        "title": "General Sailors",
+        "percentage": 100
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "year": "Highlights",
+      "achievementItem": [
+        {
+          "position": "11th",
+          "competition": "Laser/ILCA World Championships 2022"
+        },
+        {
+          "position": "5th",
+          "competition": "Laser/ILCA European Championships 2022"
+        },
+        {
+          "position": "15th",
+          "competition": "Laser/ILCA World Championships 2021"
+        },
+        {
+          "position": "1st",
+          "competition": "WASZP UK Nationals 2024"
+        },
+        {
+          "position": "2nd",
+          "competition": "WASZP Worlds 2022"
+        },
+        {
+          "position": "1st",
+          "competition": "Laser Nationals 2019"
+        },
+        {
+          "position": "1st",
+          "competition": "WASZP UK Nationals 2023"
+        },
+        {
+          "position": "4th",
+          "competition": "Laser Under-21 Europeans 2017"
+        },
+        {
+          "position": "1st",
+          "competition": "Laser Nationals 2018"
+        },
+        {
+          "position": "1st",
+          "competition": "WASZP UK Nationals 2021"
+        },
+        {
+          "position": "5th",
+          "competition": "Laser Under-21 Worlds 2017"
+        },
+        {
+          "position": "1st",
+          "competition": "RS Aero 7 Worlds 2018"
+        },
+        {
+          "position": "1st",
+          "competition": "RS Aero 7 Nationals 2020"
+        },
+        {
+          "position": "1st",
+          "competition": "RS Aero 7 Nationals 2018"
+        },
+        {
+          "position": "1st",
+          "competition": "RS Aero 7 Nationals 2017"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "achievementItem": [
+        {
+          "position": "1st",
+          "competition": "WASZP UK Nationals"
+        },
+        {
+          "position": "2nd",
+          "competition": "Endeavour Trophy"
+        },
+        {
+          "position": "5th",
+          "competition": "WASZP Worlds"
+        },
+        {
+          "position": "18th",
+          "competition": "ILCA Worlds"
+        },
+        {
+          "position": "24th",
+          "competition": "Princess Sofia Regatta"
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "achievementItem": [
+        {
+          "position": "1st",
+          "competition": "WASZP UK Nationals"
+        },
+        {
+          "position": "1st",
+          "competition": "WASZP End of Seasons"
+        },
+        {
+          "position": "5th",
+          "competition": "Endeavour Trophy"
+        },
+        {
+          "position": "6th",
+          "competition": "Vilamoura December Grand Prix"
+        },
+        {
+          "position": "6th",
+          "competition": "Moth Nationals Plymouth"
+        },
+        {
+          "position": "23rd",
+          "competition": "Princess Sofia Regatta"
+        },
+        {
+          "position": "25th",
+          "competition": "Hyeres SOF"
+        },
+        {
+          "position": "36th",
+          "competition": "ILCA Worlds - The Hague"
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "achievementItem": [
+        {
+          "position": "11th",
+          "competition": "Laser/ILCA World Championships 2022"
+        },
+        {
+          "position": "5th",
+          "competition": "Laser/ILCA European Championships 2022"
+        },
+        {
+          "position": "16th",
+          "competition": "Hyeres SOF Regatta"
+        },
+        {
+          "position": "17th",
+          "competition": "Princess Sofia Regatta Palma"
+        },
+        {
+          "position": "2nd",
+          "competition": "WASZP Worlds"
+        },
+        {
+          "position": "3rd",
+          "competition": "WASZP UK Nationals"
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "achievementItem": [
+        {
+          "position": "15th",
+          "competition": "Laser/ILCA World Championships"
+        },
+        {
+          "position": "22nd",
+          "competition": "Laser/ILCA European Championships"
+        },
+        {
+          "position": "2nd",
+          "competition": "Laser/ILCA UK Nationals"
+        },
+        {
+          "position": "1st",
+          "competition": "WASZP UK Nationals"
+        },
+        {
+          "position": "8th",
+          "competition": "Vilamoura Coaches Regatta R2"
+        },
+        {
+          "position": "45th",
+          "competition": "Vilamoura Olympic Intercontinental Qualifier"
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "achievementItem": [
+        {
+          "position": "24th",
+          "competition": "Laser European Championships"
+        },
+        {
+          "position": "3rd",
+          "competition": "Laser Nationals"
+        },
+        {
+          "position": "12th",
+          "competition": "Kiel Week"
+        },
+        {
+          "position": "64th",
+          "competition": "Laser World Championships"
+        },
+        {
+          "position": "3rd",
+          "competition": "British Sailing Team eSailing Nationals"
+        },
+        {
+          "position": "1st",
+          "competition": "UK Laser eSailing Nationals"
+        },
+        {
+          "position": "1st",
+          "competition": "UK Waszp eSailing Nationals "
+        },
+        {
+          "position": "3rd",
+          "competition": "RYA Class eSailing Championships"
+        },
+        {
+          "position": "1st",
+          "competition": "eSailing The Splashes - England vs Australia"
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "achievementItem": [
+        {
+          "position": "1st",
+          "competition": "Laser National Champion"
+        },
+        {
+          "position": "39th",
+          "competition": "Laser Europeans"
+        },
+        {
+          "position": "4th",
+          "competition": "Waszp Nationals"
+        },
+        {
+          "position": "4th",
+          "competition": "Endeavour Championship"
+        },
+        {
+          "position": "8th",
+          "competition": "Kiel Week"
+        },
+        {
+          "position": "39th",
+          "competition": "Trofeo S.A.R. Princesa Sofía Regatta, Palma"
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "achievementItem": [
+        {
+          "position": "1st",
+          "competition": "Laser Nationals"
+        },
+        {
+          "position": "1st",
+          "competition": "Laser Inlands"
+        },
+        {
+          "position": "34th",
+          "competition": "Laser Europeans"
+        },
+        {
+          "position": "1st",
+          "competition": "RS Aero 7 Worlds"
+        },
+        {
+          "position": "1st",
+          "competition": "RS Aero 7 Nationals"
+        },
+        {
+          "position": "10th",
+          "competition": "RS 200 Nationals"
+        },
+        {
+          "position": "13th",
+          "competition": "Medemblik Regatta Holland"
+        },
+        {
+          "position": "19th",
+          "competition": "Kiel Week"
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "achievementItem": [
+        {
+          "position": "5th",
+          "competition": "Laser U-21 World Championships"
+        },
+        {
+          "position": "4th",
+          "competition": "Laser U-21 European Championships"
+        },
+        {
+          "position": "1st",
+          "competition": "Laser Inland Championship"
+        },
+        {
+          "position": "1st",
+          "competition": "RS Aero Nationals"
+        },
+        {
+          "position": "3rd",
+          "competition": "RYA Youth Nationals"
+        },
+        {
+          "position": "5th",
+          "competition": "Palamos Christmas Race"
+        },
+        {
+          "position": "12th",
+          "competition": "Kiel Week"
+        },
+        {
+          "position": "33rd",
+          "competition": "Delta Lloyd Regatta"
+        },
+        {
+          "position": "40th",
+          "competition": "Trofeo S.A.R. Princesa Sofía Regatta, Palma"
+        }
+      ]
+    },
+    {
+      "year": "2016",
+      "achievementItem": [
+        {
+          "position": " ",
+          "competition": "Selected for the British Sailing Team"
+        },
+        {
+          "position": "8th",
+          "competition": "Under 21 European Championships"
+        },
+        {
+          "position": "30th",
+          "competition": "Under 21 World Championships"
+        },
+        {
+          "position": "2nd",
+          "competition": "RYA Youth Nationals"
+        }
+      ]
+    },
+    {
+      "year": "2015",
+      "achievementItem": [
+        {
+          "position": "8th",
+          "competition": "Under-19 at Laser U21 Worlds 2015"
+        }
+      ]
+    },
+    {
+      "year": "2014",
+      "achievementItem": [
+        {
+          "position": "3rd",
+          "competition": "UK Laser Nationals"
+        }
+      ]
+    },
+    {
+      "year": "2013",
+      "achievementItem": [
+        {
+          "position": "14th",
+          "competition": "UK Laser Radial Nationals"
+        },
+        {
+          "position": "5th",
+          "competition": "UK Laser Radial Inlands"
+        }
+      ]
+    },
+    {
+      "year": "2012",
+      "achievementItem": [
+        {
+          "position": " ",
+          "competition": "Selected for his first ever national squad."
+        }
+      ]
+    },
+    {
+      "year": "2011",
+      "achievementItem": [
+        {
+          "position": " ",
+          "competition": "Competed for the first time at a national event."
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "qaItem": [
+      {
+        "question": "What has sailing taught you?",
+        "answer": "Sailing teaches you so many life skills which you can use on and off of the water. How to think under pressure, how hard work pays off, good time management skills, budgeting, risk taking, leadership as well as much more."
+      },
+      {
+        "question": "What do you love most about sailing?",
+        "answer": "It’s an awesome way to keep mentally and physically fit and the connection between you, the boat and the environment is awe-inspiring."
+      },
+      {
+        "question": "Who inspired you to start sailing?",
+        "answer": "My dad sailed round the world which definitely inspired me to learn how to sail."
+      },
+      {
+        "question": "What was your first boat?",
+        "answer": "My brother and I shared a Laser Pico which we used to sail around in thinking we were incredibly cool."
+      },
+      {
+        "question": "Who is the most famous person you've met and where?",
+        "answer": "When I was younger, Ben Ainslie once ran over my sandcastle as he sailed his Hobie cat up the beach whilst on holiday in the Caribbean."
+      },
+      {
+        "question": "Childhood hero?",
+        "answer": "Ben Ainslie."
+      },
+      {
+        "question": "What keeps you going when you're on the limit?",
+        "answer": "The short term pain creates a long term gain. "
+      },
+      {
+        "question": "Favourite sailing location?",
+        "answer": "I would have to say my hometown, Swanage. I’ve sailed there for a long time now but always puts a big smile on my face."
+      },
+      {
+        "question": "If you weren't a sailor, what would you be?    ",
+        "answer": "Fighter pilot/computer programmer/graphics designer/marketing/sales/gamer. I have a lot of interests!"
+      },
+      {
+        "question": "Interests away from sailing:",
+        "answer": "Fitness, windsurfing, surfing, exploring, travelling, computer programming, design, stock trading."
+      },
+      {
+        "question": "Interesting fact:",
+        "answer": "I designed and built my own boat at the age of 16. I also started working at Microsoft aged just 18 before turning to professional sailing. Quite a unconventional journey."
+      },
+      {
+        "question": "Best advice:",
+        "answer": "Never give up no matter how many setbacks you suffer. Train smart, remain focussed and keep that end goal in mind."
+      }
+    ]
+  }
+}

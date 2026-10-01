@@ -1,0 +1,61 @@
+{
+  "banner": {
+    "title": "Coaching",
+    "subtitle": null,
+    "image": "/uploads/YN2017_SMILE_compressed_c839d3d1f7.jpeg",
+    "backgroundPositionV": "bottom",
+    "backgroundPositionH": "left"
+  },
+  "introTitle": "World Class Coaching",
+  "introContent": "I am a fully qualified race coach specialising in singlehanded sailing coaching. Racing the Laser Standard/ILCA 7 as part of the British Sailing Team, I have competed at national and international level with successes including winning the Laser Nationals twice, finishing 5th place at the Laser/ILCA European Championships in 2022 as well as 11th at the World Championships. I've also won the WASZP nationals twice and finished 2nd at the worlds. **[Find out more about me here.](https://samwhaley.com/about)**\n\nI offer insightful coaching designed to enhance sailor performance physically as well as mentally. With first hand experiance in many classes such as the Laser, RS Aero, RS200 and foilers such as the Waszp, I am confident that whatever you may sail, I can help you become a faster and smarter sailor. \n\n**A coaching session with me starts at £300, excluding travel costs, [but feel free to contact me for a tailored quote.](https://samwhaley.com/contact)**\n\nHere are the main classes I offer coaching for and my various services:",
+  "coachingBoats": {
+    "boat": [
+      {
+        "boatName": "Laser",
+        "image": "/uploads/YN2017+SMILE_400efb2e1e.jpeg",
+        "title": "Olympic Class",
+        "content": "My speciality. I offer coaching for the 4.7, Radial and Standard rigs for all levels and abilities. Small or large, I can help you reach goals with smart training and efficient coaching maximising your development on and off of the water.",
+        "backgroundPosition": "center"
+      },
+      {
+        "boatName": "Waszp",
+        "image": "/uploads/IMG_9814_f3d7b539ad.jpeg",
+        "title": "Flying Lessons",
+        "content": "This new class of boat opens up the thrill of foiling to a huge amount of different people. I am now the UK WASZP Class Chairman and a regular on the race circuit.",
+        "backgroundPosition": "center"
+      },
+      {
+        "boatName": "RS Aero",
+        "image": "/uploads/rs_aero_e00bb9955e.png",
+        "title": "RS Aero",
+        "content": "I am the past RS Aero 7 National and World champion. Just like the Laser, I offer elite coaching to any Aero sailors who want to sharpen up to become faster and smarter sailors.",
+        "backgroundPosition": "center"
+      }
+    ]
+  },
+  "services": {
+    "service": [
+      {
+        "boldText": "Group",
+        "title": "Group Lessons",
+        "content": "Coaching a small group of sailors either from a RIB or from a boat itself. Ideal group size: 3-4 boats.",
+        "image": "/uploads/WhatsApp_Image_2021-06-18_at_18.19.42_5822ba08ef.jpeg",
+        "backgroundPosition": "right"
+      },
+      {
+        "boldText": "1-on-1 ",
+        "title": "1-on-1 Coaching",
+        "content": "Ideal for focusing on your own goals with maximum coach attention to get those small gains.",
+        "image": "/uploads/RSGAMES-1_f1f64cbe40.jpeg",
+        "backgroundPosition": "bottom"
+      },
+      {
+        "boldText": "Talks",
+        "title": "Sailing Talks",
+        "content": "I am also available to come and give talks on a wide variety of topics, such as 'SAILING SMART' or 'SAILING FAST'.",
+        "image": "/uploads/12916169_821111768017402_6538318009876625960_o_9cb8b028a2.jpeg",
+        "backgroundPosition": "right"
+      }
+    ]
+  }
+}

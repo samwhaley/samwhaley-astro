@@ -1,0 +1,13 @@
+{
+  "name": "samwhaley-astro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "migrate:content": "node scripts/migrate/content.mjs",
+    "migrate:images": "node scripts/migrate/images.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "yaml": "^2.9.1"
+  }
+}

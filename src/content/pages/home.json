@@ -1,0 +1,53 @@
+{
+  "banner": {
+    "title": "Sam Whaley",
+    "subtitle": "Professional Sailor",
+    "image": "/uploads/upwind_56bb734cb8.jpeg",
+    "backgroundPositionV": "top",
+    "backgroundPositionH": "left"
+  },
+  "intro": {
+    "title": "Sam Whaley",
+    "content": "***8 x National Champion - 1 x World Champion***\n\nSam Whaley is a professional sailor living in Dorset, UK and representing Great Britain at events around the globe. A proud member of the British Sailing Team at 27 years old, he is campaigning full-time to represent Great Britain at the Olympics. Focused and determined, he has quickly risen up through the national and international rankings and has established himself as one to watch. Follow his journey here.",
+    "image": "/uploads/2023_ILCA_WORLDS_D7_140823_SH_LSD_8749_0e5ff1d476.jpeg",
+    "button": {
+      "page": "about",
+      "text": "more about sam",
+      "type": "standard",
+      "align": "left",
+      "show": true
+    },
+    "number": 1,
+    "logos": []
+  },
+  "pageLinks": [
+    {
+      "title": "Coaching",
+      "content": "I offer insightful coaching designed to enhance sailor performance; mentally and physically. I have a lot of experience in many classes such as the Laser, RS Aero, Waszp, RS200 and many more. No matter what you sail, I can help give you insights on how to become smarter and slicker on the race course. Make winning inevitable.",
+      "image": "/uploads/RSGAMES-1_f1f64cbe40.jpeg",
+      "button": {
+        "page": "coaching",
+        "text": "more on coaching",
+        "type": "standard",
+        "align": "left",
+        "show": true
+      },
+      "number": 3,
+      "logos": []
+    },
+    {
+      "title": "Sponsors",
+      "content": "Sponsors are an integral part of an Olympic campaign and I work with my partners closely to ensure that together we create valuable and meaningful content for us both. I pride myself on creating a great ROI. Check out some of my partnerships here.",
+      "image": "/uploads/swanageregatta5_0a7b004e34.jpeg",
+      "button": {
+        "page": "sponsors",
+        "text": "more on sponsors",
+        "type": "standard",
+        "align": "left",
+        "show": true
+      },
+      "number": 4,
+      "logos": []
+    }
+  ]
+}
