@@ -6,12 +6,14 @@ Inputs: `json/` (mongoexport of the Strapi v3.1.4 database) and `schema/`
 ```bash
 npm install
 npm run migrate:content   # src/content/**, out/images.txt, out/report.md
-npm run migrate:images    # public/uploads/ (originals from git history, resized)
+npm run migrate:images -- --from <strapi>/public/uploads   # public/uploads/, resized
 ```
 
 Both are safe to re-run. `migrate:images` skips files already in
-`public/uploads`; pass `-- --force` to redo them, or `-- --from <dir>` to
-read originals from a folder instead of git history.
+`public/uploads`; pass `--force` to redo them. The images have already been
+imported and committed, and the Strapi uploads folder was removed from this
+repo's history to keep it small, so you only need `migrate:images` again if
+the content changes and needs uploads not yet in `public/uploads`.
 
 ## Output
 

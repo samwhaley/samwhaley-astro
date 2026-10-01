@@ -2,37 +2,29 @@
 // resized to fit within MAX_EDGE px and recompressed. Filenames are kept so
 // /uploads/<name> links in the content keep working.
 //
-// Source defaults to the commit that added the Strapi uploads to this repo
-// (the folder has since been removed from the working tree). Override with:
-//   npm run migrate:images -- --from <directory>
+// The Strapi uploads are no longer in this repo (they were removed from git
+// history to keep clones small), so point it at a copy of that folder:
+//   npm run migrate:images -- --from <strapi>/public/uploads
 //
 // Existing files in public/uploads are skipped; pass --force to redo them.
 import fs from 'node:fs';
 import path from 'node:path';
-import { execFileSync } from 'node:child_process';
 import sharp from 'sharp';
 import { ROOT, OUT_DIR } from './lib.mjs';
 
 const MAX_EDGE = 2400;
 const JPEG_QUALITY = 80;
-const GIT_UPLOADS_PATH = 'reference/old-nuxt/public/uploads';
 const DEST = path.join(ROOT, 'public/uploads');
 
 const args = process.argv.slice(2);
 const fromDir = args.includes('--from') ? path.resolve(args[args.indexOf('--from') + 1]) : null;
 const force = args.includes('--force');
 
-const git = (...a) => execFileSync('git', a, { cwd: ROOT, maxBuffer: 256 * 1024 * 1024 });
-
-let readSource;
-if (fromDir) {
-  readSource = (name) => fs.readFileSync(path.join(fromDir, name));
-} else {
-  const rev = git('log', '-1', '--format=%H', '--diff-filter=A', '--', GIT_UPLOADS_PATH).toString().trim();
-  if (!rev) throw new Error(`No commit adds ${GIT_UPLOADS_PATH}; pass --from <directory>`);
-  console.log(`reading originals from git ${rev.slice(0, 7)}:${GIT_UPLOADS_PATH}`);
-  readSource = (name) => git('show', `${rev}:${GIT_UPLOADS_PATH}/${name}`);
+if (!fromDir) {
+  console.error('Usage: npm run migrate:images -- --from <strapi>/public/uploads');
+  process.exit(1);
 }
+const readSource = (name) => fs.readFileSync(path.join(fromDir, name));
 
 async function shrink(input, name) {
   const image = sharp(input, { failOn: 'none' })
