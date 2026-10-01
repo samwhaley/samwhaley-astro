@@ -1,11 +1,16 @@
 ---
-title: Build Up To The Olympics
+title: Up To The Olympics
 slug: paris2024buildup
 date: 2025-05-07
 displayDate: 07 May
 preview: Long time no speak. Just over a year has flown by and I am slightly behind with my goal of doing one blog post a month 😂
 image: /uploads/5_e26808740d.jpeg
 thumbnailPosition: center
+youtube: ''
+body2: ''
+youtube2: ''
+body3: ''
+links: []
 draft: false
 ---
 
