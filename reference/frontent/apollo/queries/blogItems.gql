@@ -1,0 +1,17 @@
+query BlogItems {
+  blogItems(sort: "published_at:DESC", where: {published:true}, limit:-1) {
+    thumbnail_position,
+    id,
+    slug,
+    title,
+    preview_text,
+    image {
+      url
+    },
+    rich_text,
+    date,
+    createdAt,
+    published,
+    published_at
+  }
+}

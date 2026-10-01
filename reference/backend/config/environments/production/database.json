@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "admin",
+        "host": "178.62.106.180",
+        "srv": false,
+        "port": 27017,
+        "username": "StrapiAdmin",
+        "password": "GongFreak92124"
+      },
+      "options": {
+        "authenticationDatabase": ""
+      }
+    }
+  }
+}
