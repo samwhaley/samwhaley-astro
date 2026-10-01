@@ -1,7 +1,7 @@
 <template>
 	<div class="achievement-carousel">
         <Arrow></Arrow>
-        <Carousel :items="achievements" :per-page="1" :loop="true" v-slot="{ item: slide }">
+        <Carousel :items="achievements" :per-page="1" :loop="true" :pagination-enabled="true" v-slot="{ item: slide }">
             <h3 class="achievement__year">{{ slide.year }}</h3>
             <div class="achievements">
                 <div class="achievements__item" v-for="(item, i) in slide.achievementItem" :key="i">

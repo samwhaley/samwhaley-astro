@@ -53,7 +53,12 @@ function handleScroll() {
 	}
 }
 
-onMounted(() => window.addEventListener('scroll', handleScroll, { passive: true }));
+onMounted(() => {
+	window.addEventListener('scroll', handleScroll, { passive: true });
+	// The JS loads once the section is visible, after the scroll that brought it
+	// there, so check straight away (the old page listened from page load).
+	handleScroll();
+});
 onBeforeUnmount(() => window.removeEventListener('scroll', handleScroll));
 </script>
 

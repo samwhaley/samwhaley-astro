@@ -8,12 +8,21 @@
                 </div>
             </div>
         </div>
+        <div v-if="paginationEnabled" class="VueCarousel-pagination">
+            <div role="tablist" class="VueCarousel-dot-container" style="margin-top: 20px;">
+                <button v-for="page in maxIndex + 1" :key="page" type="button" role="tab"
+                    class="VueCarousel-dot" :class="{ 'VueCarousel-dot--active': page - 1 === index }"
+                    :aria-label="'Item ' + (page - 1)" :aria-selected="page - 1 === index"
+                    :style="{ marginTop: '20px', padding: '10px', width: '10px', height: '10px', backgroundColor: page - 1 === index ? '#000000' : '#efefef' }"
+                    @click="index = page - 1; restartAutoplay()"></button>
+            </div>
+        </div>
     </div>
 </template>
 
 <script setup>
 // A small stand-in for vue-carousel (Vue 2 only), covering what the old site
-// used: slides per page, loop, autoplay, transition speed and drag/swipe.
+// used: slides per page, loop, autoplay, transition speed, drag/swipe and dots.
 // Class names match vue-carousel's so the old styles still apply.
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue';
 
@@ -24,6 +33,7 @@ const props = defineProps({
     autoplay: Boolean,
     autoplayTimeout: { type: Number, default: 2000 },
     speed: { type: Number, default: 500 },
+    paginationEnabled: Boolean,
 });
 
 const wrapper = ref(null);
@@ -100,6 +110,26 @@ onBeforeUnmount(() => {
         display: flex;
         flex-direction: row;
         backface-visibility: hidden;
+    }
+    .VueCarousel-pagination {
+        text-align: center;
+        width: 100%;
+    }
+    .VueCarousel-dot-container {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .VueCarousel-dot {
+        appearance: none;
+        background-clip: content-box;
+        border: none;
+        border-radius: 100%;
+        box-sizing: content-box;
+        cursor: pointer;
+        display: inline-block;
+        outline: none;
+        padding: 0;
     }
     .VueCarousel-slide {
         flex-basis: inherit;

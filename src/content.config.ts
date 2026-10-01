@@ -127,9 +127,11 @@ const news = defineCollection({
   loader: glob({
     pattern: '**/*.md',
     base: './src/content/news',
-    // The slug in frontmatter is the URL, kept exactly (some are mixed case,
-    // e.g. /news/DE2019). New posts without one use the filename.
-    generateId: ({ entry, data }) => (typeof data.slug === 'string' && data.slug) || entry.replace(/\.md$/, ''),
+    // The slug in frontmatter is the URL; new posts without one use the filename.
+    // Lowercased because Netlify serves lowercase paths: old mixed-case links
+    // like /news/DE2019 get a 301 to /news/de2019, so that's where the page lives.
+    generateId: ({ entry, data }) =>
+      ((typeof data.slug === 'string' && data.slug) || entry.replace(/\.md$/, '')).toLowerCase(),
   }),
   schema: z.object({
     title: z.string(),

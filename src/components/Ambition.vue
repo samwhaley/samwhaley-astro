@@ -20,13 +20,14 @@ defineProps({
 	bars: Array // { title, percentage }
 });
 
-// Bars fill when scrolled into view and empty again when scrolled away.
+// Bars fill when the whole block is in view and empty again as soon as part of
+// it leaves (the old code's threshold was `this.threshold | 1`, i.e. 1).
 const barsEl = ref(null);
 const visible = ref(false);
 let observer;
 
 onMounted(() => {
-	observer = new IntersectionObserver(([entry]) => (visible.value = entry.isIntersecting), { threshold: 0 });
+	observer = new IntersectionObserver(([entry]) => (visible.value = entry.isIntersecting), { threshold: 1 });
 	observer.observe(barsEl.value);
 });
 onBeforeUnmount(() => observer?.disconnect());
