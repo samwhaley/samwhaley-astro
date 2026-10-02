@@ -1,5 +1,7 @@
 # samwhaley.com
 
+
+
 Sam Whaley Sailing — a static [Astro](https://astro.build) site with
 [Sveltia CMS](https://github.com/sveltia/sveltia-cms) for editing, hosted on Netlify.
 It replaces the old Nuxt + Strapi site (kept for reference in `reference/`).
