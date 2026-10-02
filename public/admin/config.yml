@@ -4,7 +4,7 @@
 
 backend:
   name: github
-  repo: therealJonSnow/samwhaley-astro
+  repo: samwhaley/samwhaley-astro
   branch: main
   # GitHub login goes through Netlify's OAuth service (the GitHub OAuth app's
   # client ID and secret live in Netlify, not here).
